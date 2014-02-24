@@ -1,0 +1,3247 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<tree id='0'>
+  <item id='a1' text='水轮机埋入部件' >
+    <userdata name='type'>part_1</userdata>
+    <item id='a1b1' text='座环'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a1b1l1' text='固定导叶的裂纹'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．设计或制造工艺差致使结构承载力薄弱
+          2. 混凝土碱骨料反应引起变形
+          3. 因磨损或磨蚀导致结构整体性变坏
+          4. 振动
+          5. 材料缺陷
+        </userdata>
+        <userdata name='solution'>
+          1．调查以前的修理情况（数量及频度）
+          2．全面目测检查
+          3．对固定导叶和上下环板的接头进行无损探伤检验
+          4．对流量、材料和应力经行分析
+          5．进行补焊修理修复
+        </userdata>
+      </item>
+      <item id='a1b1l2' text='泥沙磨损'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．固定导叶设计缺陷
+          2. 水中含有磨蚀沙粒
+        </userdata>
+        <userdata name='solution'>
+          1．全面目测检查
+          2．调查以前的修理情况（数量及频度）
+          3．用现代设计进行比较分析
+          4．流量分析
+          5．焊接修复表面
+          6. 修正水力型线
+          7. 采用更合适的表面护层
+        </userdata>
+      </item>
+      <item id='a1b1l3' text='腐蚀'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．表面涂层不当及其引起的损耗
+          2. 含有电解物质且具侵蚀性的水质
+        </userdata>
+        <userdata name='solution'>
+          1．全面目测检查
+          2．喷沙处理、表面加涂层
+        </userdata>
+      </item>
+      <item id='a1b1l4' text='水力损失'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．固定导叶设计缺陷
+          2. 表面光洁度粗糙
+        </userdata>
+        <userdata name='solution'>
+          1．流量分析
+          2．用现代设计进行比较分析
+          3．喷沙/磨光
+          4．改进水力剖面
+          5．刷耐磨漆
+        </userdata>
+      </item>
+      <item id='a1b1l5' text='径向法兰渗流'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．因混凝土变形影响径向法兰损坏
+          2. 封焊疲劳裂纹（如原来法兰螺栓未拧好）
+        </userdata>
+        <userdata name='solution'>
+          1．对封口或其结构进行焊接修理
+        </userdata>
+      </item>
+      <item id='a1b2' text='蜗壳或半蜗壳'>
+        <userdata name='type'>part_2</userdata>
+        <item id='a1b2l1' text='座环区域裂纹（在钢板或焊接接头部位）'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	混凝土碱骨料反应引起变形
+            2.	因磨蚀导致结构完整性降低
+            3.	加压循环/压力波动/水力共振（低、中、高循环疲劳）
+          </userdata>
+          <userdata name='solution'>
+            1．	全面目测检查，对损坏部位及数量绘图标明
+            2．	对蜗壳/座环的接头及其他可疑处进行无损探伤检验
+            3．	应力分析
+            4．	查询以前的修理情况（原来的、扩展的及频度）
+            5．	调整导水机构的关闭时间
+            6．	焊接处理
+          </userdata>
+        </item>
+        <item id='a1b2l2' text='铆钉损坏'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．腐蚀
+          </userdata>
+          <userdata name='solution'>
+            1．	焊接处理
+            2．	关键部位进行更换
+          </userdata>
+        </item>
+        <item id='a1b2l3' text='表面光洁度降低严重'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	腐蚀
+            2．	微生物
+            3．	甲壳动物
+            4．	表面涂层不当或脱落
+          </userdata>
+          <userdata name='solution'>
+            1．喷沙处理和应用表面护层
+          </userdata>
+        </item>
+        <item id='a1b2l4' text='壁厚受损'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	水中有磨蚀泥砂
+            2．	腐蚀与磨损的联合作用
+          </userdata>
+          <userdata name='solution'>
+            1．	测量钢板厚度
+            2．	应力分析
+            3．	涂刷防腐涂层
+            4．	调整导叶关闭规律或降低机组出力或两者都采用
+            5．	蜗壳加固
+          </userdata>
+        </item>
+        <item id='a1b2l5' text='进人孔渗漏或进人孔失灵'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	腐蚀
+            2．	门密封垫或法兰表面损坏
+            3．	门调整不好
+            4．	门铰损坏
+            5．	轴套磨损
+          </userdata>
+          <userdata name='solution'>
+            1．	对止水表面进行目测检修
+            2．	更换密封垫
+            3．	设计新的止水
+            4．	对止水表面重新组装或加工
+          </userdata>
+        </item>
+        <item id='a1b2l6' text='混凝土过水表面损坏'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	混凝土（整体或局部）浇筑质量差
+          </userdata>
+          <userdata name='solution'>
+            1.	混凝土修理
+          </userdata>
+        </item>
+      </item>
+      <item id='a1b3' text='基础环'>
+        <userdata name='type'>part_2</userdata>
+        <item id='a1b3l1' text='裂纹'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．设计不当
+            2. 制造缺陷
+            3. 压力脉动
+            4. 转轮擦伤基础环
+            3. 焊接修理不妥
+          </userdata>
+          <userdata name='solution'>
+            1．全面目测检查和无损探伤检验
+            2．应力分析
+            3．焊接修理
+            4．基础环加固
+            5．补气
+            6. 机组轴线找正和平衡
+          </userdata>
+        </item>
+        <item id='a1b3l2' text='水渗漏'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	装配缺陷
+            2．	设计不当
+            3．	螺栓松动
+          </userdata>
+          <userdata name='solution'>
+            1．	目测检查
+            2．	确认螺栓是否拧紧
+            3．	修理或更换基础环
+          </userdata>
+        </item>
+        <item id='a1b3l3' text='圆周边损坏'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．混凝土碱骨料反应引起下部结构变形
+          </userdata>
+          <userdata name='solution'>
+            1．	测量圆周边和叶片顶部间隙
+            2．	检查机组对中
+            3．	探查下部混凝土结构
+            4．	重新调整叶片顶部间隙
+          </userdata>
+        </item>
+        <item id='a1b3l4' text='基础环变形、不对中或倾斜'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	装配缺陷
+            2.	混凝土碱骨料反应引起下部结构变形
+          </userdata>
+          <userdata name='solution'>
+            1．测量转轮轴线位置与基础环的关系
+            2．机组大修，重装机组重新找正中心
+          </userdata>
+        </item>
+        <item id='a1b3l5' text='非正常磨损'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	转轮摩擦基础环内壁
+          </userdata>
+          <userdata name='solution'>
+            1．目测检查
+            2．机组中心检查和校正
+            3．确认转轮叶片顶部间隙
+          </userdata>
+        </item>
+        <item id='a1b3l6' text='空蚀损坏'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	运行条件
+            2．	叶片设计
+            3．	转轮叶片间隙
+          </userdata>
+          <userdata name='solution'>
+            1．	检查并绘图标明空蚀部位
+            2．	确认转轮叶片间隙
+            3．	复核运行条件
+            4．	修理受损表面
+          </userdata>
+        </item>
+        <item id='a1b3l7' text='腐蚀'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	水质腐蚀
+            2．	不合适的护层
+          </userdata>
+          <userdata name='solution'>
+            1．喷沙处理和应用合适护层
+          </userdata>
+        </item>
+        <item id='a1b3l8' text='泥沙磨损'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	水中悬疑质泥沙
+            2．	材料选择不当
+          </userdata>
+          <userdata name='solution'>
+            1．抗磨护层（金属喷涂或焊接）
+            2．修理或更换
+          </userdata>
+        </item>
+        <item id='a1b3l9' text='性能和环境有关因素'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	叶片顶部间隙过大
+          </userdata>
+          <userdata name='solution'>
+            1.	叶片轴线在基础环内上下调整
+          </userdata>
+        </item>
+      </item>
+      <item id='a1b4' text='尾水管'>
+        <userdata name='type'>part_2</userdata>
+        <item id='a1b4l1' text='尾水管里衬背后脱空或里衬与混凝土之间分离'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．压力脉动（部分与高负荷时涡核引起）
+            2. 混凝土碱骨料反应引起变形
+            3. 一期混凝土浇筑不当或锚固失效
+          </userdata>
+          <userdata name='solution'>
+            1．锤击检查，绘图标明脱空点（区）
+            2．灌注环氧沙浆或水泥沙浆
+            3．增加辅助锚固
+          </userdata>
+        </item>
+        <item id='a1b4l2' text='腐蚀和（或）磨损'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	水中含催化腐蚀的微生物
+            2．	浸没循环的次数
+            3．	由于材料成分不当或并发电解腐蚀侵蚀，在非正常状态下运行
+            4．	水中含有磨蚀颗粒
+          </userdata>
+          <userdata name='solution'>
+            1．	全面进行目测检查
+            2．	测量壳板厚度
+            3．	喷砂并应用抗腐蚀和抗磨蚀涂层
+            4．	应用抗腐蚀或和抗磨蚀的表面保护层，在高流速区采用钢里衬
+          </userdata>
+        </item>
+        <item id='a1b4l3' text='裂纹'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．与锚筋或外部加强筋分离
+            2. 部分负荷和高负荷时的涡核引起压力脉动
+          </userdata>
+          <userdata name='solution'>
+            1．	全面进行目测检查
+            2．	调查以前的修理情况（数量及频度）
+            3．	壳板厚度测量
+            4．	在进人孔门部分和与基础环的连接点处进行无损探伤试验
+            5．	部分更新或表面翻修（焊接、打磨并重新灌浆）
+          </userdata>
+        </item>
+        <item id='a1b4l4' text='空蚀破坏'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	选用材料或护层材料不当
+            2．	在正常负荷或正常运行条件以外区域运行
+            3．	电厂运行方式改变
+            4．	转轮或导水机构水力设计不当引起水流扰动
+          </userdata>
+          <userdata name='solution'>
+            1．	全面目测检查
+            2．	过流分析
+            3．	与现代设计进行比较分析
+            4．	测量壳板厚度
+            5．	恢复过流表面状况
+            6．	喷沙清理和重新涂刷
+            7．	采用抗空蚀护层
+          </userdata>
+        </item>
+        <item id='a1b4l5' text='效率或功率低于正常值'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	设计不当
+            2．	新的运行条件（负荷范围或水头）
+          </userdata>
+          <userdata name='solution'>
+            1．流量分析
+            2．与现代设计进行比较
+            3．钢板/混凝土外形修整
+            4．对基础环进行合理的修改
+          </userdata>
+        </item>
+        <item id='a1b4l6' text='尾水管表面与外形受损'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．	由于混凝土浇筑质量差引起流道内混凝土脱落掉块
+            2．	磨蚀颗粒和（或）混凝土的空蚀
+            3．	持续高速产生空化（二次流）
+          </userdata>
+          <userdata name='solution'>
+            1．	全面目测检查
+            2．	检查并绘图标明损坏区域
+            3．	混凝土翻新
+            4．	进行混凝土打磨以获得可接受的连续流线型表面
+          </userdata>
+        </item>
+        <item id='a1b4l7' text='弯肘形尾水管压力脉动'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1．水轮机叶片出口水流存在圆周方向的速度分量，产生脱流和回流现象
+            2．偏心涡带诱发的压力脉动频率接近机组某一个固有频率时引起强烈共振
+          </userdata>
+          <userdata name='solution'>
+            1.改变水流的流动和旋转状况：加隔导流板
+            2.向尾水管补气
+          </userdata>
+        </item>
+      </item>
+    </item>
+  </item>
+  <item id='a2' text='水轮机非埋入、非旋转部件'>
+    <userdata name='type'>part_1</userdata>
+    <item id='a2b1' text='顶盖'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a2b1l1' text='裂纹'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	重复加压
+          2．	压力脉动或压力骤变
+          3．	水力共振（低、中、高循环疲劳）
+          4．	变形
+          5．	材料或设计不当
+          6．	设计的机械应力过高
+        </userdata>
+        <userdata name='solution'>
+          1．全面目测检查和无损探伤检验
+          2．应力分析
+          3．焊补修理
+          4．顶盖补强
+          5．更换顶盖
+        </userdata>
+      </item>
+      <item id='a2b1l2' text='磨损面板或抗磨板损坏'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	水中含磨蚀泥沙
+          2．	空蚀损坏
+          3．	腐蚀和磨损联合作用
+          4．	高速清洁水流喷射通过很小的间隙造成的“线条状损伤”
+          5．	与导叶接触
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测与尺寸检验
+          2．	磨损面修复与加工
+          3．	抗磨板安装或更换
+          4．	重调装配对中找正
+          5．	导叶垂直调整
+        </userdata>
+      </item>
+      <item id='a2b1l3' text='故障原因'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	顶盖和（或）底环不对中
+          2．	导叶与顶盖间隙不够
+          3．	顶盖过度偏斜
+        </userdata>
+        <userdata name='solution'>
+          1．	通过导叶扭矩试验评价导叶失效的风险
+          2．	全面目测检查，探查部件结合部位的磨损和擦伤
+          3．	全面检查导叶尺寸，检查顶盖与底环的铅直度
+          4．	重新装配对中找正
+          5．	磨损面整修与机械再加工
+          6．	抗磨板安装或更换
+        </userdata>
+      </item>
+      <item id='a2b1l4' text='转轮上密封（梳齿）损坏'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	顶盖不对中
+          2．	转轮不对中
+          3．	间隙不对中
+          4．	混凝土碱骨料反应引起变形
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检验
+          2．	间隙修正
+          3．	全面检查顶盖尺寸和检验转轮的对中
+          4．	转轮密封（梳齿）机加工或更换
+          5．	更换顶盖
+          6．	更换转轮
+        </userdata>
+      </item>
+      <item id='a2b1l5' text='水平面误差'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	装配不当
+          2．	电站发生形变
+          3．	混凝土碱骨料反应引起变形
+        </userdata>
+        <userdata name='solution'>
+          1．	顶盖基础表面尺寸检验
+          2．	顶盖基础表面（座环法兰）机加工
+        </userdata>
+      </item>
+      <item id='a2b1l6' text='磨损面及抗磨板平直度'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	装配不当
+          2．	不规则磨损
+        </userdata>
+        <userdata name='solution'>
+          1．	全面检查机加工面的尺寸
+          2．	机加工顶盖磨损面或抗磨板
+          3．	安装或更换抗磨板
+          4．	更换顶盖
+          5．	重装机组
+        </userdata>
+      </item>
+      <item id='a2b1l7' text='水渗漏'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．主轴密封或密封表面磨损
+        </userdata>
+        <userdata name='solution'>
+          1．	更换主轴密封
+          2．	重新调整密封表面
+        </userdata>
+      </item>
+      <item id='a2b1l8' text='润滑（包含环境条件）'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	润滑脂油管破裂
+          2．	润滑脂润滑系统故障
+          3．	润滑脂分配槽不畅
+          4．	环境造成润滑脂损耗过大
+          5．	导叶轴套磨损
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查顶盖及衬套润滑脂润滑系统
+          2．	更换导叶轴套
+          3．	安装自润滑导叶轴套
+          4．	润滑脂润滑系统改进、修理、或重整程序或将其拆除
+        </userdata>
+      </item>
+      <item id='a2b1l9' text='螺栓松动或破损'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	装配不当
+          2．	顶盖变形
+          3．	螺栓材料选择失当或缺乏特殊的螺栓材料
+          4．	制造和安装过程中品质控制失当
+          5．	设计应力过大
+          6．	非正常的压力脉动
+          7．	水力共振（低、中、高循环疲劳负荷）
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查法兰和螺栓，如可行则应做无损探伤
+          2．	更换螺栓
+          3．	流量分析
+          4．	修整顶盖固有频率
+          5．	改善水轮机通气条件
+          6．	修改螺栓数量和螺栓尺寸和（或）其材料
+        </userdata>
+      </item>
+      <item id='a2b1l10' text='水滞留（排水问题）'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	排水孔阻塞或排水不畅
+          2．	排水能力不足
+          3．	排水管堵塞
+          4．	主轴密封或导叶漏水量太大
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检验
+          2．	调研过去出现过的问题
+          3．	清理排水孔和排水管
+          4．	修理或更换排水泵（射流泵）
+          5．	修改排水系统设计
+          6．	更换主轴密封或导叶密封
+        </userdata>
+      </item>
+      <item id='a2b1l11' text='考虑维修引起的进入口问题'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	设计不当
+          2．	再次维修或安全需要
+        </userdata>
+        <userdata name='solution'>
+          1．	与现代设计进行比较分析
+          2．	修改顶盖设计
+          3．	更换顶盖
+        </userdata>
+      </item>
+      <item id='a2b1l12' text='导叶控制环向板问题'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	导向板磨损
+          2．	强力摩擦
+        </userdata>
+        <userdata name='solution'>
+          1．	更换导向板或改用自润滑材料
+        </userdata>
+      </item>
+      <item id='a2b1l13' text='导叶轴套磨损'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	底环和顶盖不对中
+          2．	润滑问题
+          3．	由于长期或特长时间工作造成磨损
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检验
+          2．	机组重新对中
+          3．	更换轴套或改用自润滑材料
+          4．	润滑脂润滑系统改进、修理、或重整程序或将其拆除
+        </userdata>
+      </item>
+    </item>
+    <item id='a2b2' text='支持盖及内顶盖'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a2b2l1' text='裂纹'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．设计不当
+          2. 材料性能不良或材料选择不当
+          3. 非正常的压力脉动，压力骤变
+          4. 过渡过程时转轮上抬频繁
+          5. 流道中挟有大量杂物
+        </userdata>
+        <userdata name='solution'>
+          1．全面目测检查和无损探伤
+          2．应力分析
+          3．补焊修理
+          4．加固
+          5．更换
+          6. 检查转轮与内顶盖之间的间隙
+        </userdata>
+      </item>
+      <item id='a2b2l2' text='漏水'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	装配不当
+          2．	设计不当
+          3．	螺栓松动
+        </userdata>
+        <userdata name='solution'>
+          1．	目测检查并对损坏处绘图说明
+          2．	确认螺栓状态
+          3．	更换接缝止水和对止水密封表面进行修整
+        </userdata>
+      </item>
+      <item id='a2b2l3' text='水力表面磨蚀'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	水中有磨蚀颗粒
+          2．	水力表面连续性差
+        </userdata>
+        <userdata name='solution'>
+          1．	目测检查并绘图说明损坏区域
+          2．	对损坏面表层进行焊补修复
+          3．	清除水力表面不连续
+        </userdata>
+      </item>
+      <item id='a2b2l4' text='螺栓松动或破断'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	装配问题
+          2．	材料性能不良或材料选择不当
+          3．	螺栓扭矩不够
+          4．	振动使螺栓松动
+        </userdata>
+        <userdata name='solution'>
+          1．	目测检查法兰配合存在的问题
+          2．	验证螺栓理论负荷，材料与装配扭矩
+          3．	测量振动与压力脉动
+        </userdata>
+      </item>
+      <item id='a2b2l5' text='排水问题'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	排水孔阻塞或排水不畅
+          2．	排水管堵塞
+          3．	主轴密封和（或）导叶漏水量太大
+          4．	排水能力不足
+        </userdata>
+        <userdata name='solution'>
+          1．	检查导叶密封，主轴密封与顶盖法兰止水
+          2．	清理排水孔和排水管
+          3．	更换或修理排水泵或排出口
+          4．	修改排水系统
+          5．	更换导叶密封，主轴密封和顶盖法兰止水密封
+        </userdata>
+      </item>
+      <item id='a2b2l6' text='进人孔口问题'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	设计不当
+          2．	新的维护或安全要求或法规
+        </userdata>
+        <userdata name='solution'>
+          1．	与现代设计进行比较分析
+          2．	修改
+          3．	更换
+        </userdata>
+      </item>
+    </item>
+    <item id='a2b3' text='底环'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a2b3l1' text='抗磨板损坏'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	水中有磨蚀泥砂
+          2．	空蚀损坏
+          3．	“线条状损伤”
+          4．	与导叶触磨
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测与尺寸检验
+          2．	表面修理与机加工
+          3．	安装与更换抗磨板
+          4．	重调对中
+          5．	修理（焊接与加工）磨损面
+          6．	校准导叶立面位置
+        </userdata>
+      </item>
+      <item id='a2b3l2' text='导叶操作不灵'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	顶盖和（或）底环对中不好
+          2．	底环与导叶间的间隙不够
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查
+          2．	全面检验导叶尺寸，检查底环与顶盖的对中
+          3．	重调对中
+          4．	表面修理与机加工
+          5．	安装或更换抗磨板
+        </userdata>
+      </item>
+      <item id='a2b3l3' text='转轮下密封（梳齿）损坏'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	底环对中不好
+          2．	转轮对中不好
+          3．	设计间隙不当
+          4．	混凝土碱骨料反应引起底环变形
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查
+          2．	修改间隙
+          3．	全面检验底环尺寸与转轮对中
+          4．	转轮密封（梳齿）机加工或更换
+          5．	更换底环
+        </userdata>
+      </item>
+      <item id='a2b3l4' text='水平面误差'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	装配问题
+          2．	电站基础尺寸变化
+          3．	混凝土碱骨料反应
+        </userdata>
+        <userdata name='solution'>
+          1．	全面检验底环及其底座的尺寸
+          2．	机加工底环支撑表面
+        </userdata>
+      </item>
+      <item id='a2b3l5' text='抗磨板平直度'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	装配问题
+          2．	磨损
+          3．	变形
+        </userdata>
+        <userdata name='solution'>
+          1．	全面检查机器加工面的尺寸
+          2．	机加工底环
+          3．	更换底环
+          4．	机组重新安装
+          5．	安装或更换抗磨板
+        </userdata>
+      </item>
+      <item id='a2b3l6' text='漏水'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	止水环损坏或密封面损坏
+        </userdata>
+        <userdata name='solution'>
+          1．	更换密封
+          2．	调整密封表面
+        </userdata>
+      </item>
+      <item id='a2b3l7' text='包含考虑环境影响的导叶下轴套的润滑问题'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	润滑脂输送管破裂
+          2．	润滑脂润滑分配槽设计不当
+          3．	润滑脂润滑系统功能失效
+          4．	过多的润滑脂损耗污染环境
+          5．	导叶轴套磨损
+        </userdata>
+        <userdata name='solution'>
+          1．	全面检查底环轴套及其润滑系统
+          2．	更换导叶轴套
+          3．	安装自润滑导叶轴套
+          4．	修改、修理或重新安排润滑系统
+        </userdata>
+      </item>
+      <item id='a2b3l8' text='螺栓松动或破断'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	装配问题
+          2．	底环变形
+          3．	材料性能不良、材料选择不当
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查螺栓与止水
+          2．	修改螺栓数量、材料或螺栓尺寸
+          3．	更换螺栓
+        </userdata>
+      </item>
+      <item id='a2b3l9' text='导叶轴套磨损'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	底环与顶盖对中不好
+          2．	润滑问题
+          3．	运行时间太长或老化
+          4．	混凝土
+          4．	电站基础尺寸变化
+          5．	混凝土碱骨料反应
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查
+          2．	全面检验底环尺寸和顶盖对中状况
+          3．	机组重装或重新找正中心
+          4．	更换轴套或相似的自润滑材料
+          5．	修改、修理或重新安排润滑系统
+        </userdata>
+      </item>
+    </item>
+    <item id='a2b4' text='导叶'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a2b4l1' text='裂纹'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	振动
+          2．	由于颗粒磨损或空蚀使结构的整体性降低
+          3．	材料缺陷，设计或制造问题
+          4．	偶尔出现的异常荷载
+        </userdata>
+        <userdata name='solution'>
+          1．	调查以前的修理情况（次数和频度）
+          2．	全面目测与无损检验
+          3．	应力与材料分析
+          4．	焊补
+          5．	重新机加工
+          6．	更换
+        </userdata>
+      </item>
+      <item id='a2b4l2' text='变形'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	材料缺陷，设计或制造问题
+          2．	由于杂物夹持导致突发的异常荷载
+          3．	保护装置功能失效
+        </userdata>
+        <userdata name='solution'>
+          1.	全面尺寸检验
+          2.	更换
+          3.	保护装置的检验、校正与更换
+          4.	修理或更换拦污栅
+        </userdata>
+      </item>
+      <item id='a2b4l3' text='空蚀'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	导叶叶形
+          2．	在非正常状态下运行
+          3．	电厂运行或水力条件发生重大变化
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查
+          2．	调查以前的修理情况（次数与频度）
+          3．	材料与流量分析
+          4．	与现代设计进行比较分析
+          5．	焊补修复表面
+          6．	修改
+          7．	更换
+        </userdata>
+      </item>
+      <item id='a2b4l4' text='腐蚀'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	涂层不当
+          2．	由于材料成分不良侵蚀性水体和（或）电解质物质影响
+        </userdata>
+        <userdata name='solution'>
+          1．	喷沙/磨光
+          2．	采用更适当的涂层
+          3．	更换成更合适的材料
+        </userdata>
+      </item>
+      <item id='a2b4l5' text='磨蚀'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	水中含磨蚀泥沙
+        </userdata>
+        <userdata name='solution'>
+          1．	焊补修复表面
+          2．	应用抗磨蚀材料（堆焊、金属喷涂）
+          3．	更换成更合适的材料
+        </userdata>
+      </item>
+      <item id='a2b4l6' text='与顶盖和（或）底环触磨'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	安装时中心找正不良
+          2．	材料成分不良
+          3．	间隙不够
+          4．	杂质颗粒引起
+          5．	混凝土碱骨料反应
+        </userdata>
+        <userdata name='solution'>
+          1．	对导叶和导水机构装配进行目测与尺寸检验
+          2．	通过焊接、打磨/再加工对表面进行整理
+          3．	使用抗磨损材料
+          4．	拆卸，调整及重新装配部件
+          5．	如有可能，勘查并消除杂质颗粒源
+        </userdata>
+      </item>
+      <item id='a2b4l7' text='水力特性'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	水力剖面不良
+          2．	非常规的导叶安放角
+          3．	导叶最大开度选定不当
+        </userdata>
+        <userdata name='solution'>
+          1．	流量分析
+          2．	与现代设计进行比较分析
+          3．	修整叶形
+          4．	更换
+          5．	确认与调整导叶操作机构
+        </userdata>
+      </item>
+      <item id='a2b4l8' text='轴头磨损'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	润滑系统失效
+          2．	泥砂磨损
+          3．	腐蚀
+          4．	材料成分不良
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检验
+          2．	在轴头上用新的不锈钢轴领，或机加工不锈钢轴头
+          3．	更换导叶
+          4．	用自润滑轴套替换润滑脂润滑黄铜轴套系统
+          5．	修改、修理或重新安排油脂润滑系统
+        </userdata>
+      </item>
+      <item id='a2b4l9' text='端部不良止水和线接触磨损'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	接触面磨损/腐蚀
+          2．	导叶立面密封线之间的间隙（调整不当）
+          3．	导叶与顶盖和（或）底环的间隙处的泥沙磨损或间隙空蚀（“线条状损伤”）
+          4．	导叶关闭时接触压力不足
+        </userdata>
+        <userdata name='solution'>
+          1．	测量间隙
+          2．	修复接触面
+          3．	修复顶盖、底环和导叶端部
+          4．	调整导叶操作机构
+          5．	调整接力器在关闭位置上的预紧力
+          6．	更换导叶并尽可能对顶盖/底环修理
+        </userdata>
+      </item>
+      <item id='a2b4l10' text='振动'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	装配误差不能保持
+          2．	水力断面型线不良
+        </userdata>
+        <userdata name='solution'>
+          1．	全面检查操作机构尺寸和动作状况
+          2．	修改或修理操作机构
+          3．	流量分析
+          4．	修整导叶叶形
+          5．	更换
+        </userdata>
+      </item>
+      <item id='a2b4l11' text='导叶空蚀磨损'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	导叶正、背面叶片空蚀磨损、槽的磨损
+          2.	导叶大小头立面止水面的磨损
+          3.	导叶上、下端面的磨损
+        </userdata>
+        <userdata name='solution'>
+          1.	在导叶正、背面叶片贴焊不锈钢板条
+          2.	采用刚性密封的导叶大小头立面止水修复
+          3.	采用弹性密封的导叶大小头立面止水面修复
+          4.	导叶立面刚性密封改为弹性密封
+          5.	空蚀不严重的不锈钢导叶，采用直接补焊后修磨的方式修复
+          6.	空蚀严重的导叶上下端面采用贴焊不锈钢板
+          7.	导叶轴颈空蚀磨损
+        </userdata>
+      </item>
+      <item id='a2b4l12' text='导叶轴颈的空蚀磨损'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	轴颈材料问题
+          2.	空蚀破坏
+          3.	轴颈的防锈措施不当
+        </userdata>
+        <userdata name='solution'>
+          1.	不锈钢堆焊
+          2.	不锈钢圈包箍
+          3.	不锈钢板包焊
+        </userdata>
+      </item>
+    </item>
+    <item id='a2b5' text='导叶操作机构'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a2b5l1' text='裂纹与变形'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	由于杂物夹持或调整不当导致的异常荷载
+          2．	部件间错位（接力器对控制环，控制环对拐臂连杆）
+          3．	某些剪断销或其他限荷装置或摩擦传动系统动作失效
+          4．	不计其严重后果的增大接力器的操作油压力
+          5．	材料选用或设计不当
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测与尺寸检验
+          2．	无损探伤检验
+          3．	操作机构摩擦试验
+          4．	应力计算与分析
+          5．	更换轴套或改用自润滑轴套
+          6．	调整、检验并校正
+          7．	部件进行机加工
+          8．	采用抗裂涂层
+        </userdata>
+      </item>
+      <item id='a2b5l2' text='表面损坏'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	导叶连杆和拐臂受腐蚀
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查
+          2．	喷沙并刷漆
+        </userdata>
+      </item>
+      <item id='a2b5l3' text='连接件间隙过大'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	轴套磨损
+        </userdata>
+        <userdata name='solution'>
+          1．	更换轴套或改用为自润滑轴套
+        </userdata>
+      </item>
+      <item id='a2b5l4' text='调整困难'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	导叶轴头或轴套磨损
+          2．	连杆/拐臂偏心销锁定系统不当
+          3．	增长问题
+          4．	机械原理设计
+        </userdata>
+        <userdata name='solution'>
+          1．	全面评估导叶操作机构
+          2．	修改偏心连杆——销锁定系统
+          3．	应用抗磨涂层
+          4．	改善增长和工具
+        </userdata>
+      </item>
+      <item id='a2b5l5' text='剪断销反复剪断故障'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	导叶和接力器调整
+          2．	剪断销设计不当
+          3．	剪断销破断的导叶约束系统设计
+          4．	导叶轴套问题
+          5．	与顶盖和（或）底环接触
+        </userdata>
+        <userdata name='solution'>
+          1．	调查破坏的原因、位置和频发程度
+          2．	应力分析
+          3．	修改剪断销设计
+          4．	修改剪断销破断的导叶约束系统
+          5．	调整导叶、连杆、控制环和接力器
+          6．	修复改造导叶轴套或改用为自润滑轴套
+        </userdata>
+      </item>
+      <item id='a2b5l6' text='包含考虑环境影响的润滑问题'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	润滑脂输油管破裂
+          2．	润滑脂润滑系统失效
+          3．	轴套磨损
+          4．	排至厂外环境的润滑脂过多
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查
+          2．	全面清理管道布置和润滑油配分系统，包括导叶轴头中心孔和任何与导叶有关的通道
+          3．	拆除现有系统并改用为自润滑轴套
+          4．	修改、修理或重新安排润滑系统
+        </userdata>
+      </item>
+      <item id='a2b5l7' text='剪断销故障检测系统'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	供电问题
+          2．	检测系统过时/对潮湿条件考虑不周
+        </userdata>
+        <userdata name='solution'>
+          1．	复核检测系统设计
+          2．	更换剪断销故障检测系统或将其进行现代化改造
+        </userdata>
+      </item>
+    </item> 
+    <item id='a2b6' text='控制环'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a2b6l1' text='裂纹与变形'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	导叶夹持杂物导致异常荷载
+          2．	接力器或导叶拐臂调整不当
+          3．	材料或设计不当
+          4．	制造缺陷
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测并检验尺寸
+          2．	无损探伤检验
+          3．	应力分析
+          4．	重新调整接力器位置
+          5．	更换支撑控制环的抗磨板并重调操作系统
+        </userdata>
+      </item>
+      <item id='a2b6l2' text='异常磨损'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	缺少润滑脂
+          2．	连杆轴套或控制环抗磨板损坏
+          3．	轴承表面受外来物的污染
+          4．	接力器或导叶拐臂调整不当
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查
+          2．	验证润滑脂系统
+          3．	更换连杆轴套或控制环抗磨板
+          4．	添加防污垢挡板
+          5．	重新调整接力器
+          6．	更换支撑控制环的抗磨板并重新调操作系统
+        </userdata>
+      </item>
+    </item>
+    <item id='a2b7' text='接力器'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a2b7l1' text='漏油'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	密封磨损或破裂
+          2．	轴套磨损
+          3．	由于油污染导致活塞杆磨损或划痕
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查
+          2．	漏泄试验
+          3．	更换密封
+          4．	修整推拉杆
+          5．	推拉杆重新镀铬
+          6．	更换推拉杆
+          7．	更换轴套
+          8．	修复或更换接力器
+        </userdata>
+      </item>
+      <item id='a2b7l2' text='校正'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	接力器螺栓和销调整不当
+          2．	基础板表面平整度或垂直度
+          3．	控制环支撑抗磨板磨损
+          4．	混凝土不稳定性影响接力器/控制环垂直度
+        </userdata>
+        <userdata name='solution'>
+          1．	校正接力器安装位置
+          2．	检查调整接力器
+          3．	重新调整接力器/基础板
+          4．	更换支撑控制环的抗磨板并校正垂直位置
+        </userdata>
+      </item>
+      <item id='a2b7l3' text='操作力不足'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	管路问题
+          2．	调速器/液压系统问题
+          3．	接力器缸或活塞环磨损（经由活塞发生过量漏油）
+          4．	由于轴套过量磨损或调整不到位造成接力器发黏
+        </userdata>
+        <userdata name='solution'>
+          1．	活塞环漏泄试验
+          2．	更换活塞环
+          3．	整修活塞/活塞杆
+          4．	研磨和（或）机加工接力器缸
+          5．	更换轴套
+          6．	修复改造调速器/液压系统
+          7．	重新校正操作系统
+        </userdata>
+      </item>
+      <item id='a2b7l4' text='导叶预加力调整问题（关闭位置的压紧力）'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	导叶立面密封磨损
+          2．	拐臂/连杆的偏心销锁定系统设计不当
+          3．	接力器位置指示器不良或调整不当
+          4．	低油压
+          5．	预压紧力调整/行程限制系统设计不当
+        </userdata>
+        <userdata name='solution'>
+          1．	修整导叶接触表面与立面密封
+          2．	调整预压紧力/行程限制系统并修改调整方法
+          3．	修改连杆/拐臂偏心销锁定系统
+          4．	修复接力器
+          5．	更新接力器
+          6．	修复改造调速器/液压系统
+        </userdata>
+      </item>
+      <item id='a2b7l5' text='接力器锁定系统及安全问题'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	锁定系统设计太弱
+          2．	改变导叶的最大开度
+          3．	部件磨损或损坏
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查
+          2．	全面修复改造或更新锁定装置
+          3．	进行锁定系统设计
+          4．	更换接力器并采用新的锁定装置
+        </userdata>
+      </item>
+    </item>
+    <item id='a2b8' text='水导轴承'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a2b8l1' text='失油'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	油槽密封垫/O形圈损坏
+          2．	由以下一个或多个原因引起漏油溢出油槽内壁（轴颈部位）：油槽超灌；因调整不当或内壁变形导致贮油槽内壁与轴颈之间的空间不一致；贮油槽内油流过度扰动或不稳定
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查
+          2．	更换衬垫/O形密封圈
+          3．	调整油位
+          4．	对相邻连接部件的错位进行检查校正
+          5．	在油槽内壁增加挡油环/密封
+          6．	修整导轴承使油流稳定
+          7．	修理油槽内壁（恢复内壁圆度）或更换
+        </userdata>
+      </item>
+      <item id='a2b8l2' text='油中呈现水或固体颗粒'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	冷却蛇形管/供水接头渗漏
+          2．	冷凝水
+          3．	油污染物
+          4．	油过滤不当
+          5．	油漆涂层脱落
+          6．	巴氏合金瓦损坏
+        </userdata>
+        <userdata name='solution'>
+          1.	为验证水/外来颗粒进行油检验
+          2.	修理供水接头
+          3.	更换冷却水管
+          4.	滤油（在贮油槽充油时应经常适用过滤器）
+          5.	检查巴氏合金瓦
+          6.	重浇巴氏合金
+          7.	表面清洗和重刷油漆
+        </userdata>
+      </item>
+      <item id='a2b8l3' text='巴氏合金状况不佳'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	过量磨损
+          2．	轴振动超量
+          3．	脱壳
+          4．	油质不佳或油受污染
+        </userdata>
+        <userdata name='solution'>
+          1．	全面检查对巴氏合金老化和损坏：磨损、溶化、开裂、脱壳
+          2．	手工刮研或重新机加工
+          3．	重浇巴氏合金
+          4．	更换瓦块或瓦座
+        </userdata>
+      </item>
+      <item id='a2b8l4' text='油温/巴氏合金温度过高'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	冷却水供应系统运转故障或供水不足
+          2．	轴承/轴颈间隙太小
+          3．	导轴承处轴的轴摆度（轴振动）过大
+          4．	轴领偏磨
+          5．	温度探测器校验失准
+        </userdata>
+        <userdata name='solution'>;
+          1．	全面目测检查
+          2．	测量轴领圆度和偏心度
+          3．	纠正供水故障
+          4．	清洗供水管路
+          5．	重新调整轴承/轴颈间隙或重新机加工轴承
+          6．	重新机加工轴领
+          7．	更换或重新校验温度探测器
+        </userdata>
+      </item>
+      <item id='a2b8l5' text='轴承/轴领间隙过大或不均匀'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	巴氏合金磨损
+          2．	轴领偏磨
+          3．	轴瓦调整不当（分块瓦式轴承）
+          4．	轴承体校正不当或变形（筒式轴承）
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测并对轴承间隙尺寸检查
+          2．	全面检查巴氏合金的状况
+          3．	手工刮研或重新机加工轴承
+          4．	重新浇制巴氏合金
+          5．	重新调整轴瓦的径向位置
+          6．	重新调整轴承体，或校正恢复其圆形
+          7．	更换轴瓦
+          8．	更换轴承体
+        </userdata>
+      </item>
+      <item id='a2b8l6' text='轴承座裂纹'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	振动剧烈
+          2．	动态荷载（应力）过大
+          3．	非正常的运行条件
+          4．	材料或设计不当
+          5．	螺栓松动或破损
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测与无损探伤检验
+          2．	分析运行条件
+          3．	复核设计
+          4．	重紧螺栓或更换螺栓
+          5．	焊补后消除应力并机加工（如需要）
+          6．	增大螺栓扭矩或更换螺栓
+          7．	加固轴承座
+          8．	更换轴承座
+        </userdata>
+      </item>
+      <item id='a2b8l7' text='观测仪器故障导致在异常温度或油位时不发信号'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	仪器不可靠或有故障
+          2．	标定、调整值缺失
+          3．	技术落后
+        </userdata>
+        <userdata name='solution'>
+          1．	采用现代化的观测仪器，如应用有自诊断功能的仪器
+          2．	调整并重新标定
+          3．	提供冗余度
+        </userdata>
+      </item>
+    </item>
+    <item id='a2b9' text='水轮机主轴密封'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a2b9l1' text='漏水或过滤器耗水量过多'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	密封元件磨损（密封环或填料函损坏）
+          2．	密封部件腐蚀损坏
+          3．	轴领磨损
+          4．	过滤供水中断或不足
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查
+          2．	更换密封杯（密封件）
+          3．	更换轴领
+          4．	机加工轴领和（或）磨石磨光
+          5．	更换轴封密封件或密封函
+        </userdata>
+      </item>
+      <item id='a2b9l2' text='密封元件磨损率过高'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	轴领磨损
+          2．	腐蚀损坏
+        </userdata>
+        <userdata name='solution'>
+          1．	机加工轴领或手工磨光
+          2．	更换轴领
+        </userdata>
+      </item>
+      <item id='a2b9l3' text='双层平板密封'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	主轴密封上下平板磨损较大
+          2．	密封环水平偏差因素的影响
+          3．	主轴密封压力调整不及时或调整不当
+          4．	水质影响
+          5．	平板间隙调整不均匀
+          6．	空气围带漏气
+        </userdata>
+        <userdata name='solution'>
+          1.	机组停机后隔绝下游降水，排除水箱内积水，更换上下平板，并上间隙进行调整
+          2.	改善钻孔工艺，使孔与销的配合达到工艺要求
+          3.	主轴密封压力调整标准规定为比机组轮叶前的压力高一点即可
+        </userdata>
+      </item>
+    </item>
+    <item id='a2b10' text='推力轴承支架'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a2b11l1' text='裂纹'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	材料或设计不当
+          2．	机械应力提高
+          3．	水推力增大
+          4．	机组不平衡
+          5．	不正常的动荷载（水力的或部件的共振）
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测并无损探伤检验
+          2．	调查原先的事故
+          3．	现场试验（负载、应力、频率）
+          4．	应力和负荷分析
+          5．	焊补
+          6．	加固推力轴承支架
+          7．	证实和处理不正常动、静载荷的原因
+          8．	证实和处理转轮上密封水流入尾水管的情况
+          9．	机组轴线校正并进行平衡
+        </userdata>
+      </item>
+    </item>
+    <item id='a2b11' text='喷嘴'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a2b11l1' text='渗漏及喷射水柱不良'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	喷嘴座环以及喷针针尖磨损
+          2．	喷针以及喷嘴座环之间卡有异物，损坏密封
+        </userdata>
+        <userdata name='solution'>
+          1．	设计可替代的喷嘴座环
+          2．	修复座环
+          3．	更换针尖以及喷嘴座环
+        </userdata>
+      </item>
+      <item id='a2b11l2' text='喷针与喷嘴座环磨蚀'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．水中有磨蚀泥沙
+        </userdata>
+        <userdata name='solution'>
+          1．	修复针尖和喷嘴座环
+          2．	更换针尖和喷嘴座环
+          3．	硬化处理针尖和喷嘴座环表面
+        </userdata>
+      </item>
+      <item id='a2b11l3' text='喷嘴体磨蚀（喷嘴帽）'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．水中有磨蚀泥沙
+        </userdata>
+        <userdata name='solution'>
+          1．	修复喷嘴帽
+          2．	更换喷嘴帽（可改变或不改变其材料）
+        </userdata>
+      </item>
+      <item id='a2b11l4' text='喷针动作不当'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	衬套内的泥砂使摩擦系数增大
+          2．	润滑油系统失效
+          3．	接力器磨损
+          4．	操作力不足（机械补偿机构失效或油压不合适）
+        </userdata>
+        <userdata name='solution'>
+          1．	更换衬套（更换为新设计的自润滑衬套）
+          2．	润滑油系统大修
+          3．	修复接力器更换活塞环
+          4．	调速器与液压系统大修
+          5．	机械补偿系统大修
+        </userdata>
+      </item>
+    </item>
+    <item id='a2b12' text='偏流器和消能装置'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a2b12l1' text='运行不当'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	轴承或衬套或操作机构损坏
+          2．	接力器磨损
+          3．	偏流器侵蚀
+        </userdata>
+        <userdata name='solution'>
+          1．	全面检修调速器与液压系统
+          2．	修复接力器
+          3．	操作机构大修
+          4．	修复或更换偏流器
+        </userdata>
+      </item>
+      <item id='a2b12l2' text='转轮坑衬损坏'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	射流偏向频繁冲击
+          2．	转轮坑衬在射流冲击区加固不良
+          3．	埋入锚筋失效
+        </userdata>
+        <userdata name='solution'>
+          1．	目击检查并做无损探伤检验
+          2．	焊补修复
+          3．	在受影响区额外增加锚筋
+          4．	在受影响区加固转轮坑衬
+        </userdata>
+      </item>
+    </item>
+  </item>
+  <item id='a3' text='水轮机旋转部件'>
+    <userdata name='type'>part_1</userdata>
+    <item id='a3b1' text='转轮'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a3b1l1' text='裂纹'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	运行条件异常
+          2．	现场运行模式改变
+          3．	焊后残余应力
+          4．	荷载引起的应力
+          5．	空蚀引起的金属损失
+          6．	转轮密封接触引发的周期性应力
+          7．	表面空蚀引起的厚度减小
+          8．	外部激振频率引发的共振
+        </userdata>
+        <userdata name='solution'>
+          1．	调查分析过去的修理情况（原先状况、修理范围、频度）
+          2．	全面目测并无损探伤检验
+          3．	模型和（或）原型试验荷载测量
+          4．	材料、应力与流量分析
+          5．	转轮动力/模型分析与试验
+          6．	疲劳分析
+          7．	与现代设计进行比较分析
+          8．	焊接修补
+          9．	评价焊后消除焊接应力的热处理有效性
+          10．	评价焊补后的影响（如焊后未进行热处理消除应力）
+          11．	叶片外缘外形修正（改变卡门涡频率和强度）
+          12．	重建必需的转轮密封或叶片顶部间隙
+          13．	修改转轮
+          14．	更换转轮
+        </userdata>
+      </item>
+      <item id='a3b1l2' text='流道表面损坏'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	材料选择不当
+          2．	磨蚀或空蚀
+          3．	腐蚀造成的磨蚀
+          4．	低速转轮上的甲壳类生物繁殖
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测与无损探伤检验
+          2．	修理历史原因分析（原先状况、修理范围、修理频度）
+          3．	流量与材料分析
+          4．	模型和（或）原型试验
+          5．	用抗空蚀或抗磨蚀的材料补焊
+          6．	磨蚀区域用硬表面材料覆盖
+          7．	喷沙与涂漆
+          8．	修改转轮
+          9．	更换转轮，如可能更换其材料
+        </userdata>
+      </item>
+      <item id='a3b1l3' text='振动'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	压力脉动
+          2．	共振
+          3．	机械不平衡
+          4．	水力不平衡
+          5．	主轴承间隙过大或不均匀
+          6．	现场运行模式改变
+          7．	现场运行模式改变
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查与无损探伤检验
+          2．	调查过去的历史（原因、趋势、运行或形态变化）
+          3．	为分析振动做原型试验
+          4．	证实机组对中找正情况
+          5．	流量分析
+          6．	导叶叶形分析
+          7．	尾水管分析
+          8．	检验和修理各部轴承（修改或不修改）
+          9．	检验和修理主轴轴颈
+          10．	转动部件平衡
+          11．	修改转轮以改善水力平衡
+          12．	更换转轮
+        </userdata>
+      </item>
+      <item id='a3b2l4' text='空蚀'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	在非正常工况区运行
+          2．	叶形不对
+          3．	由于补焊操作不当造成叶形改变
+          4．	电厂运行方式改变，包括在无空化区域以外运行
+          5．	材料选择不当
+        </userdata>
+        <userdata name='solution'>
+          1．	全面尺寸检验
+          2．	全面目测检查并做无损检验
+          3．	模型和（或）原型试验
+          4．	以往运行和修理情况（范围、频度）分析
+          5．	流量与材料分析
+          6．	与现代设计进行比较分析
+          7．	叶片修正
+          8．	更换转轮
+          9．	采用抗空蚀材料堆焊后打磨修整，并恢复叶形或修改叶形
+        </userdata>
+      </item>
+      <item id='a3b2l5' text='顶盖与底环的影响'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	安装错位
+          2．	设计的转轮密封间隙过小
+          3．	底环或顶盖在负荷下变形
+          4．	由于混凝土基础不稳定导致底环或顶盖变形
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测、检验尺寸与调整
+          2．	历史状况（原先状况、目前状况、采取过的措施）分析
+          3．	机组重新对中找正
+          4．	机加工或更换转轮密封杯
+          5．	修改底环或顶盖
+          6．	重新机加工顶盖和底环支撑法兰（表面）
+        </userdata>
+      </item>
+      <item id='a3b2l6' text='非寻常的稳定运行范围限制区域'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	尾水管压力脉动
+          2．	外部引水系统的水力共振
+          3．	转轮和（或）尾水管水力设计
+          4．	水力不平衡（不均匀的叶片出流开度）
+          5．	运行不当（例如长时间在极低负荷运行）
+          6．	电厂运行模式改变
+          7．	尾水管补气无效
+        </userdata>
+        <userdata name='solution'>
+          1．	全面尺寸检验
+          2．	调查运行实践有何变化
+          3．	调查水力设计条件有何变化
+          4．	模型和（或）原型试验
+          5．	流量分析
+          6．	与现代转轮设计比较分析
+          7．	评价/修改尾水管补气系统
+          8．	修改转轮
+          9．	更换转轮
+        </userdata>
+      </item>
+      <item id='a3b2l7' text='效率与功率低于正常值'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	新的运行模式
+          2．	空蚀或泥沙磨蚀或其他表面损坏
+          3．	压力脉动限制了负荷范围
+          4．	转轮密封或叶片顶部间隙过大
+          5．	补气过量
+          6．	水力设计不当
+        </userdata>
+        <userdata name='solution'>
+          1．	全面尺寸检查
+          2．	调查运行实践和经验的改变
+          3．	模型和（或）原型试验
+          4．	性能与流量分析
+          5．	与现代转轮设计比较分析
+          6．	修改转轮
+          7．	更换转轮
+          8．	评价尾水管和导叶
+        </userdata>
+      </item>
+      <item id='a3b2l8' text='水轮机的空蚀破坏'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	机械破坏
+          2.	化学破坏
+          3.	电化破坏
+        </userdata>
+        <userdata name='solution'>
+          1.	设计方面：（1）改善水轮机的水力设计 （2）优化选型设计
+          2.	制造方面：（1）提高制造加工的工艺水平 （2）采用抗空蚀材料
+          3.	运行方面：（1）改善运行条件 （2）进行空蚀补气
+          4.	检修方面：（1）加强空蚀检修 （2）金属堆焊修整 （3）采用抗空蚀材料作表面防护
+        </userdata>
+      </item>
+      <item id='a3b2l9' text='水轮机的泥沙磨损'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	磨损物质的特性：沙粒成分、颗粒大小、硬质、形状等
+          2.	受磨材料的特性：水轮机过流部件金属材料的内部组织及成分、粗糙度、表面尺寸、硬度等
+          3.	水流的一些特性：水流含泥沙的浓度、水流速度大小及方向等
+          4.	运行方式的影响：在非设计工况下运行时会引起空蚀磨损对机件的联合作用
+        </userdata>
+        <userdata name='solution'>
+          1.	合理布置水利枢纽
+          2.	合理选用机型，适当降低水轮机参数
+          3.	采用抗磨材料
+          4.	改善运行条件
+        </userdata>
+      </item>
+    </item>
+    <item id='a3b2' text='水轮机轴'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a3b2l1' text='裂纹'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	振动
+          2．	设计应力过高
+          3．	动态（疲劳）应力
+          4．	运行条件不当
+          5．	特别事件或不正常的运行工况
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测和无损检验
+          2．	设计审查
+          3．	焊接、热处理和机加工处理
+          4．	挖除裂纹改变形态不焊补
+          5．	更换水轮机主轴
+          6．	平衡转轮与转子
+          7．	修理或修改导轴承和推力轴承
+        </userdata>
+      </item>
+      <item id='a3b2l2' text='轴领在导轴承出损坏'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	由于轴承损坏出现划痕
+          2．	腐蚀
+          3．	润滑问题
+          4．	油污染
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查和无损探伤检验
+          2．	采用机加工和（或）磨石磨光修复表面
+          3．	恢复圆度和同心度
+          4．	水轮机轴重新对中找正
+        </userdata>
+      </item>
+      <item id='a3b2l3' text='联轴器表面损坏'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	腐蚀或侵蚀
+          2．	变形
+          3．	联轴器螺栓的紧度不适宜
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测、尺寸检查和无损检验
+          2．	重新加工联轴器表面
+          3．	更换联轴螺栓（更改或不更改设计）
+          4．	更换水轮机轴
+        </userdata>
+      </item>
+      <item id='a3b2l4' text='轴领密封损坏'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	腐蚀
+          2．	划痕
+          3．	润滑和冷却损坏
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测、尺寸检查与无损检验
+          2．	采用机加工和（或）磨石磨光修复表面
+          3．	重整圆度和同心度
+          4．	更换轴领
+        </userdata>
+      </item>
+      <item id='a3b2l5' text='相邻固定件擦伤（轴封套、轴承、轴承盖板）'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	主轴错位不对中
+          2．	轴承或轴封或盖板调整不当
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查，注意擦伤痕迹
+          2．	检查和校正机组对中
+          3．	修理和更换轴领
+          4．	修理轴承和轴领
+        </userdata>
+      </item>
+      <item id='a3b2l6' text='振动过度'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	转轴变形
+          2．	大轴不对中
+          3．	转子和（或）转轮不平衡
+          4．	机组安装问题
+        </userdata>
+        <userdata name='solution'>
+          1．	全面进行振动分析
+          2．	对中找直检查
+          3．	机加工修理大轴
+          4．	大轴重新对中找直
+          5．	发电机和（或）转轮平衡调整
+          6．	更换水轮机轴
+        </userdata>
+      </item>
+    </item>
+  </item>
+  <item id='a4' text='水轮机辅助设备'>
+    <userdata name='type'>part_1</userdata>
+    <item id='a4b1' text='调速系统'>
+      <userdata name='type'>part_2</userdata>
+    </item>
+    <item id='a4b2' text='转速及负荷调节系统（调速器）'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a4b2l1' text='对操作指令或系统频率变化响应不灵'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	阀门或连杆磨损
+          2．	导叶位置反馈系统缆绳拉伸或磨损
+          3．	速度信号发生器损坏
+          4．	对现代控制应用的工艺过时
+        </userdata>
+        <userdata name='solution'>
+          1．	全面检查和大修调速器（包含速度和负荷信号以及导叶位置反馈系统）
+          2．	修复改造调速器以使其功能集成到远程控制系统或基于机组控制系统的局部PLC（可编程逻辑控制器）
+        </userdata>
+      </item>
+      <item id='a4b2l2' text='漏油'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	密封/阀门磨损
+          2．	管道附件损坏
+        </userdata>
+        <userdata name='solution'>
+          1．	全面目测检查
+          2．	更换密封/阀门
+          3．	修复/更换管道
+      </userdata>
+      </item>
+      <item id='a4b2l3' text='油系统运行问题'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	压油槽（集油槽）的油/空气比例不当
+          2．	压油槽容积不足
+          3．	油泵出力不足
+          4．	压缩机/空气罐容量不足
+          5．	油位/压力仪表不可靠
+        </userdata>
+        <userdata name='solution'>
+          1．	增加辅助压力油罐
+          2．	更换压力油槽
+          3．	修复或更换油泵
+          4．	修复或更换压缩机/空气罐
+          5．	仪器仪表设备和控制现代化
+        </userdata>
+      </item>
+      <item id='a4b2c1' text='油压装置故障'>
+        <item id='a4b2c1l1' text='(1)油泵供油至油压上限而自动停掉后，若中间油罐内油气交换的咕噜声来的慢而轻，则表明补气功效很低'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	集油槽油位偏高或补气阀吸气管管口位置偏低
+            2.	补气阀活塞下端的压缩弹簧刚度过小
+            3.	阀盖的下部组合面与活塞孔中心的垂直度偏差过大，装配后活塞上升要受卡阻
+            4.	装配不慎等原因致使活塞孔或活塞阀盘棱边出现毛刺，使补气阀活塞上下移动受阻
+          </userdata>
+          <userdata name='solution'>
+            1.	适当调高管口，即当压油罐油位正常时，补气阀的吸气管口刚好位于油面之上
+            2.	更换合格的弹簧
+            3.	因阀盖组合面加工偏斜所致，则应处理此组合面，以保证阀体组合后，上下活塞孔能够同心
+            4.	如因毛刺而引起故障，则应拆出修磨，使补气阀活塞的上下阀盘在其相配的内孔中凭自重能顺畅地滑落
+          </userdata>
+        </item>
+        <item id='a4b2c1l2' text='(2)机组正常运行时，油面逐渐升高，来不及补气'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	压油罐排气阀严重漏气，补气阀工作虽然正常也来不及补气
+            2.	在多年运行但又维护不当的此类油压设备上，因油质过脏而使补气阀活塞卡阻在较低位置。即使排气阀只有少量漏气，也来不及补气。
+            3.	如（1）类故障所述的补气缓慢故障，加上油泵起动供油间隔时间很短，补入的空气量少于漏气的空气量
+          </userdata>
+          <userdata name='solution'>
+            1.	因排气阀泄露严重所致，则应研磨阀座直至合格。无法修复时应予以更换
+            2.	因油质较脏造成，则应予以拆洗，并更换油液或过滤油液直至合格
+            3.	同(1)类故障中方法处理好补气缓慢的故障，同时应处理好各处漏油引起的油泵起动间隔时间过短的问题
+          </userdata>
+        </item>
+        <item id='a4b2c1l3' text='(3)不少机组投产后，压油罐油面逐渐下降，每班都要排放两三次压缩空气以保证正常水位'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	由于与补气阀想通的各通道接头处存在漏气，在大气压力下，中间油罐内的油液部分或全部被空气代换出
+            2.	回油箱油位过低或补气阀吸管口位置偏高
+          </userdata>
+          <userdata name='solution'>
+            1.	因各接头漏气所致，则应查找出漏气严重的接头，予以处理即可
+            2.	对管口位置的处理应符合补气原理的要求
+          </userdata>
+        </item>
+        <item id='a4b2c1l4' text='（4）有些YT型调速器投产一段时间后，虽额定工作油压的上下限没有改变，但油泵打油时间明显变长'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	安全阀座铸造加工质量太差，安全阀调整不当，动作频繁，使安全阀底座线被钢球打乱。油泵供油时部分液油从此排走，造成打油时间延长，油液发热，泄露更大
+            2.	安全阀弹簧加工质量太差，一段时间后，弹力减弱，油泵供油接近额定工作油压上限时，安全阀就开始动作，造成油泵打油时间过长
+            3.	使用年限较长的设备，因螺杆油泵磨损，间隙过大，输油量减少，打油时间变长。油液温升增高。泄露更加严重，打油时间更为延长
+            4.	调节系统不稳定或各部渗漏严重，造成单位时间内的油耗量过大
+            5.	安全阀调节螺丝锁钉不紧造成调节螺丝送出，油泵正常供油时，安全阀就动作排油
+          </userdata>
+          <userdata name='solution'>
+            1.	因安全阀底座被打乱，应予以修复或更换。还应重新调整好安全阀调节螺丝并锁钉好。
+            2.	重新调整安全阀调节螺丝，适当增加弹簧预压力，使安全阀动作压力符合规定。拧紧锁钉螺母。安全阀调整好后，还必须复查安全阀全部开起排油的压力值是否符合规定。对无法使用的弹簧应予以更换
+            3.	因油泵磨损严重，应予以更换
+            4.	对调节系统的摆动故障予以排除。对各部漏油作相应处理直至合格
+            5.	重新按规定调整安全阀并拧紧锁钉螺母
+          </userdata>
+        </item>
+      </item>
+      <item id='a4b2c2' text='调速器运行中故障'>
+        <item id='a4b2c2l1' text='（1）离心摆在额定转速下运转时，柜内小压力表指针大幅度跳动，指示主接力器活塞行程的黑针摆动'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	引导阀搭叠量偏小，造成系统过敏性的摆动
+            2.	离心摆弹簧质量有问题，造成离心摆跳动严重
+            3.	最多见的是因接力器和主配压阀油路中含气较多引起
+          </userdata>
+          <userdata name='solution'>
+            1.	调换合适的引导阀针塞
+            2.	更换合格的弹簧圈
+            3.	对内部残存空气所造成的摆动，可使主接力器活塞由全关到全开，多动作几次 ，排尽系统内残存的空气即可
+          </userdata>
+        </item>
+        <item id='a4b2c2l2' text='（2）有些调速器在运行期间，出现接力器向开启或关闭侧移动会受'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.导叶接力器至导叶传递杆件歪斜卡阻
+            2.控制环、导叶轴承间隙过小，向心度差，摩擦阻力太大
+            3.导叶之间卡进了杂物或被泥沙堵塞
+            4.漏油过多或油管直径偏小，压力损失过大，接力器内油压过低，操作无力
+          </userdata>
+          <userdata name='solution'>
+            1.	调整导叶接力器至导叶的传递杆件，消除其歪斜卡阻现象
+            2.	重新分解、检查，研刮轴瓦套，必要时应更换新配件，再行装配，直至摩擦阻力正常为止
+            3.	停机后关闭进水主阀，消除杂物和泥沙
+            4.	消除漏油，加大油管尺寸，提高接力器内工作油压
+          </userdata>
+        </item>
+      </item>
+    </item>
+    <item id='a4b3' text='尾水管补气系统'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a4b3l1' text='效率或功率不足'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	补气量过大
+          2．	不需补气时进行了补气
+          3．	气补入位置不当
+          4．	调节不良或对补气过程/补气时负荷范围无控制
+        </userdata>
+        <userdata name='solution'>
+          1．	原型补气试验（补气量与效率关系）
+          2．	与现代设计进行比较分析
+          3．	安装轴向补气系统或修改现有系统
+        </userdata>
+      </item>
+      <item id='a4b3l2' text='压力脉动过高'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1．	补气量不当（由于系统设计原因背压超高）
+          2．	在不需补气的负荷内注入了空气（能产生共振现象）
+          3．	补气位置不当
+          4．	电厂运行条件改变
+        </userdata>
+        <userdata name='solution'>
+          1.	调查过去经历（水力工况、机组操作、修改补气系统）
+          2.	对现在和过去工况下的流量分析
+          3.	模型和（或）原型试验
+          4.	安装轴向补气系统或修改现有系统
+          5.	按照新的运行条件进行流量分析
+          6.	采用压缩空气补气
+        </userdata>
+      </item>
+      <item id='a4b3l3' text='噪声水平'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	补气系统设计
+          2.	补气量太大
+        </userdata>
+        <userdata name='solution'>
+          1.	安装或修改减音器
+          2.	安装或改进补气流量控制装置
+        </userdata>
+      </item>
+      <item id='a4b3l4' text='补气系统'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	补气阀漏水
+          2.	补气阀动作频繁
+          3.	补气阀发卡
+          4.	补气阀不能复位
+        </userdata>
+        <userdata name='solution'>
+          1.	更换阀盘密封
+          2.	更换补气阀密封腔盘根
+          3.	修理或更换阀轴
+          4.	调整弹簧预紧力或更换弹簧
+        </userdata>
+      </item>
+    </item>
+    <item id='a4b4' text='润滑系统（导叶机构）'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a4b4l1' text='润滑脂渗漏（进入自然环境中）'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	管道和接头磨损
+          2.	安装不合理
+        </userdata>
+        <userdata name='solution'>
+          1.	全面目测检查
+          2.	更换管道和附件
+          3.	拆除系统，改为自润滑耐磨部件
+        </userdata>
+      </item>
+      <item id='a4b4l2' text='润滑脂黏附润滑管道'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	润滑系统失效
+          2.	劣质润滑脂
+          3.	维修保养不当
+        </userdata>
+        <userdata name='solution'>
+          1.	全面目测检查
+          2.	分析维修保养方法并与现代方法进行比较
+          3.	重新选定润滑脂型号和数量
+          4.	改进或重新设计润滑脂系统
+          5.	更换管路和附件
+          6.	拆除系统，改为自润滑耐磨部件
+        </userdata>
+      </item>
+      <item id='a4b4l3' text='润滑脂附件进油不畅'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	设计问题
+          2.	安装不当
+        </userdata>
+        <userdata name='solution'>
+          1.	设计审核并改进
+          2.	改为自动润滑系统
+        </userdata>
+      </item>
+      <item id='a4b4l4' text='润滑脂输送量不足或耗损量过大（外漏进入自然环境中）'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	系统油循环不当
+          2.	系统设计不当
+        </userdata>
+        <userdata name='solution'>
+          1.	修改和（或）重新设计润滑系统
+        </userdata>
+      </item>
+    </item>
+  </item>
+  <item id='a5' text='发电机部件'>
+    <userdata name='type'>part_1</userdata>
+    <item id='a5b1' text='定子'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a5b1l1' text='定子机座'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	定子机座分瓣处螺栓松动
+          2.	挡风板松动或脱焊
+          3.	上下齿压板脱焊或端部变形
+          4.	消防管道堵塞
+          5.	地脚螺栓松动
+        </userdata>
+        <userdata name='solution'>
+          1.	测量间隙看是否满足要求，若不能则查询安装记录，然后进行打磨等操作
+          2.	直接对脱焊处挡风板进行焊接处理
+          3.	（1）对脱焊处直接进行焊接处理；
+              （2）若齿压板端部压指发生变形，则需要拆卸变形齿压板，拆卸完毕后，对压指进行矫正或打磨处理。处理完毕后，其压指要符合技术要求
+              （3）回装齿压板，并对其顶丝进行点焊处理
+          4.	（1）根据消防管路堵塞情况判断是否需要对整个管路进行解体处理；
+              （2）解体后，用0.7MPa的气压对堵塞部分进行疏通；疏通完毕后回装
+          5.	（1）先用磨角机对需要处理的螺栓焊接处进行打磨处理，并清除掉所有焊渣，清洗连接螺栓，螺纹；
+              （2）按照生产厂家提供的力矩拧紧螺栓；
+              （3）全部拉伸完毕后，对螺栓进行焊接处理
+        </userdata>
+      </item>
+    </item>
+    <item id='a5b2' text='转子'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a5b2l1' text='转子'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	转子不平衡
+          2.	转子碰磨
+          3.	定子、转子空气间隙不均匀
+          4.	转子绕组绝缘过低
+          5.	转子磁极一点接地故障
+          6.	磁极绕组匝间短路故障
+          7.	庄子磁极线圈引线故障
+          8.	转子磁极引出线接头过热故障
+          9.	阻尼绕组故障
+        </userdata>
+        <userdata name='solution'>
+          1.	测出不平衡质量所在方位和大小，然后用增加平衡质量或去掉平衡质量的方法使转子达到平衡。
+              常用方法：振动幅值分析法、频谱分析法、相位分析法、特征分析法
+          2.	严格检查定转子上的螺栓或易松动部件，防止定转子内有易松动部件掉入定子、转子空气间隙中，造成短路或扫膛现象。
+              其次在检修作业时严防随身携带的物件掉入转定子空气间隙中。
+          3.	通过调节上导或水导中心的办法来调整空气间隙值
+          4.	首先应彻底清扫转子绕组的积灰及油污；用绝缘电阻测量其绝缘电阻；若绝缘电阻还很低，应进行烘焙处理
+          5.	检查确认磁极线圈与磁极铁芯之间发生接地后，必须将磁极拆下来进行修理。
+              修理时先将线圈从磁极铁芯上拆下来，再清除陈旧的对地绝缘一边拆除一边做好记录；然后按照原始记录制作对地绝缘。
+          6.	发现短路匝后，先在外表面处理，用锯条片或电工刀将此发热处的线匝间绝缘从外向里清理，清除外表面脏物，然后测量发热点。
+        </userdata>
+      </item>
+      <item id='a5b2l2' text='转子磁轭'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	磁轭键焊缝开裂
+          2.	转子磁轭松动及下沉
+        </userdata>
+        <userdata name='solution'>
+          1.打磨磁轭键脱焊处焊缝钱，在磁极和定子铁芯处铺设防火布；防止打磨的火花伤及磁极，磁轭，铁芯绝缘；
+          打磨脱焊处的焊缝，直到可以看到两根磁轭键搭接的位置为止；打磨完毕后，清理所有焊渣
+          2.若磁轭下沉，重新对磁轭拉紧螺杆进行拉紧。若磁轭和支臂有径向或切向位移，要打紧磁轭键，以克服磁轭松动
+        </userdata>
+      </item>
+    </item>
+    <item id='a5b3' text='发电机整体'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a5b3l1' text='发电机发不出电'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	接线错误
+          2.	转速太低
+          3.	定子绕组到发电机配电设备间的接线有油泥或被氧化；接线螺丝松脱；连接线断线
+          4.	励磁回路断线或接触不良
+          5.	励磁整流管损坏
+          6.	电刷与滑环接触不良或电刷压力不够
+          7.	刷握生锈，电刷不能上下滑动
+          8.	励磁机电刷位置不正确，电刷损坏压力不够
+          9.	励磁机的绕组接线错误，极性相反
+          10.	励磁机剩磁消失或剩磁太小
+        </userdata>
+        <userdata name='solution'>
+          1.	按系统接线图检查纠正
+          2.	测量转速，使之达额定值
+          3.	用万用表查明断线处；检查各接线螺丝解除情况，查明后修复
+          4.	用万用表查明断线处，将断处焊劳，包扎绝缘
+          5.	调换同规格整流管
+          6.	清洁滑环表面，打磨电刷；增加电刷压力
+          7.	用“00”号砂布擦净刷握内表面，如损坏，应更换
+          8.	将电刷调至正确位置；更换电刷；调整弹簧压力
+          9.	改正绕组接线，并按其正确极性重新充磁
+          10.	对励磁机重新充磁
+        </userdata>
+      </item>
+      <item id='a5b3l2' text='发电机电压太低'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	发电机转速太低
+          2.	水量不足或超负荷
+          3.	励磁回路电阻太大
+          4.	励磁机电刷位置不正确或电刷弹簧压力太小
+          5.	部分整流二极管被击穿
+          6.	定子绕组或励磁绕组中有短路或接地故障
+        </userdata>
+        <userdata name='solution'>
+          1.	调节水轮机进水量，提高发电机转速
+          2.	切除部分负荷
+          3.	减小励磁回路电阻值
+          4.	将电刷调至正确位置；更换电刷；调整弹簧压力
+          5.	检查，更换同规格二极管
+          6.	检查短路或接地部位，予以消除
+        </userdata>
+      </item>
+      <item id='a5b3l3' text='相复励发电机电压不正常'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	电抗器、电流互感器线圈断路或短路，不发电
+          2.	整定电阻太小，电压低
+          3.	电抗器铁芯气隙过小或过大，电压低或偏高
+        </userdata>
+        <userdata name='solution'>
+          1.	找出断路或短路处或更换线圈
+          2.	适当调整整定电阻
+          3.	重新调整电抗器气隙，保持额定电压
+        </userdata>
+      </item>
+      <item id='a5b3l4' text='可控硅励磁发电机不正常'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	可控硅控制极被击穿或开路，不发电
+          2.	可控硅开放时间太短，电压低
+          3.	触发环节损坏，不发电
+        </userdata>
+        <userdata name='solution'>
+          1.	检查可控硅如被击穿，更换同规格可控制硅
+          2.	调整可控硅的开放角
+          3.	拆下触发环节，检查故障，予以消除
+        </userdata>
+      </item>
+      <item id='a5b3l5' text='发电机电压过高'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	转速过高
+          2.	分流电抗器铁芯气隙过大
+          3.	磁场变阻器短路，调压失灵
+          4.	发电机发生飞逸
+        </userdata>
+        <userdata name='solution'>
+          1.	调小水轮机进水量，降低转速
+          2.	改变电抗器铁芯垫片厚度，调整气隙
+          3.	找出短路点，予以消除
+          4.	作紧急事故处理
+        </userdata>
+      </item>
+      <item id='a5b3l6' text='发电机三相不平衡'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	定子绕组某一相或两相接线头松动，或开关中有一相或两相触头接触不良
+          2.	定子绕组某一相或两相断路或短路
+          3.	外电路三相负荷不平衡
+        </userdata>
+        <userdata name='solution'>
+          1.	将接线头拧紧，检查三相开关触头，用“00”号砂布擦净触面；如损坏，应更换
+          2.	查明断路或短路处，予以消除
+          3.	调整三相负荷，使之基本平衡
+        </userdata>
+      </item>
+      <item id='a5b3l7' text='发电机温度过高'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	发电机超负荷运行，且超出允许过负荷运行时间
+          2.	外电路三相负荷严重不平衡
+          3.	通风冷却系统不良，如通风边堵塞，风扇损坏或内部绕组灰尘堆积等
+          4.	定子绕组有短路 或漏电
+          5.	发电机受潮
+        </userdata>
+        <userdata name='solution'>
+          1.	减负荷运行
+          2.	调整三相负荷，使之基本平衡
+          3.	查明原因，排除故障，改善通风条件
+          4.	检查定子绕组
+          5.	发电机进行干燥处理
+        </userdata>
+      </item>
+      <item id='a5b3l8' text='发电机轴承温度过高'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	主轴弯曲，中心线不准
+          2.	地脚螺栓松动
+          3.	轴承中润滑油过多或不足，油质变坏或有其他杂物
+          4.	轴承中滚珠或滚珠损坏
+        </userdata>
+        <userdata name='solution'>
+          1.	重新校正中心线
+          2.	拧紧地脚螺丝
+          3.	使油量适中，或更换润滑油
+          4.	更换轴承
+        </userdata>
+      </item>
+      <item id='a5b3l9' text='发电机运行时发出噪声'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	轴承磨损，转子与定子摩擦
+          2.	换向器铜片凹凸不平或云母片凸出
+          3.	电刷太硬
+          4.	电刷压力太强
+        </userdata>
+        <userdata name='solution'>
+          1.	更换轴承
+          2.	用“00”号砂布磨光换向器表面，并锯凹云母片
+          3.	换以质软的电刷
+          4.	调整电刷压紧弹簧的压力
+        </userdata>
+      </item>
+      <item id='a5b3l10' text='发电机内部冒烟、冒火花，并有烧焦气味'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	定子绕组匝间或相间短路
+          2.	电刷下火花过大
+          3.	发电机过负荷严重
+          4.	励磁回路断线
+          5.	发电机飞逸，电压过高，绝缘被损坏
+          6.	误操作而非同期并车
+        </userdata>
+        <userdata name='solution'>
+          1.	立即停机检查处理
+          2.	检查电刷、滑环（或换向器），加以调整
+          3.	减轻负荷
+          4.	立即停机，检查励磁回路引线的连接并接好
+          5.	立即紧急事故停机，检查处理
+          6.	立即解列，停机检查处理
+        </userdata>
+      </item>
+      <item id='a5b3l11' text='发电机振动过大'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	发电机转轴与水轮机主轴中心不重合
+          2.	地脚螺栓松动，或地基不坚实，发生不均匀沉陷
+          3.	轴颈弯曲
+          4.	转子绕组局部短路，接地或接线错误
+          5.	定子绕组短路或接地
+          6.	误操作非同期并车
+          7.	外部故障或雷击
+        </userdata>
+        <userdata name='solution'>
+          1.	重新校正同心度
+          2.	拧紧螺丝，加固定基，重新调整
+          3.	运输或起吊过程中不慎损伤，用百分表检查轴的弯曲或不圆，然后修直或车圆
+          4.	检查滑环及转子绕组对地绝缘，或通直流电检查各线圈压降，绕组方向和接线方法，查明故障，加以消除
+          5.	停机检查处理
+          6.	立即解列，停机检查处理
+          7.	如振动时间过长，应停机检查
+        </userdata>
+      </item>
+      <item id='a5b3l12' text='电压震荡不稳定'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	接线松动或电刷松动
+          2.	自动电压调整器故障或局部接线不当
+          3.	电力网不稳定
+          4.	接向器云母凸起，电刷跳动
+          5.	水轮机转速不稳定
+        </userdata>
+        <userdata name='solution'>
+          1.	拧紧接线头，调整好电刷
+          2.	检查自动调压器加以消除
+          3.	电网恢复后会立即消逝
+          4.	锯凹凸起的云母
+          5.	调整水轮机，稳定转速
+        </userdata>
+      </item>
+      <item id='a5b3l13' text='发电机带负荷需要太大励磁电流'>
+        <userdata name='type'>fault</userdata>
+        <userdata name='description'>
+          1.	负载功率因数太低
+          2.	转速太低
+        </userdata>
+        <userdata name='solution'>
+          1.	调整负载或进行无功补偿
+          2.	调整水轮机，使转速调至额定转速
+        </userdata>
+      </item>
+    </item>
+  </item>
+  <item id='a6' text='辅助设备'>
+    <userdata name='type'>part_1</userdata>
+    <item id='a6b1' text='油系统'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a6b1c1' text='透平油'>
+        <userdata name='type'>part_3</userdata>
+        <item id='a6b1c1d1' text='齿轮油泵'>
+          <userdata name='type'>part_4</userdata>
+          <item id='a6b1c1d1l1' text='不排油或排油量少'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	吸入高度超过额定值
+              2.	吸入管道漏气
+              3.	旋转方向不对
+              4.	吸入管道堵塞或阀门关闭
+              5.	安全阀卡死或研伤
+              6.	液体温度低而黏度增大
+            </userdata>
+            <userdata name='solution'>
+              1.	提高吸入液面
+              2.	检查各接合处密封材料是否损坏或更换密封
+              3.	按泵的标示方向纠正转向
+              4.	检查管道是否有堵塞,阀门是否开启
+              5.	拆开安全阀清洗并用细研磨砂研磨阀孔,使其吻合
+              6.	预热液体,如不可能,可降低排油压力或减少排出流量
+            </userdata>
+          </item>
+          <item id='a6b1c1d1l2' text='密封漏油'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	轴封处未调整好
+              2.	密封圈磨损而间隙增大
+              3.	机械密封动静环的摩擦面损坏
+              4.	弹簧松弛
+            </userdata>
+            <userdata name='solution'>
+              1.	重新调整
+              2.	适量拧紧调节螺母或更换密封圈
+              3.	更换动静环或重新研磨
+              4.	更换弹簧
+            </userdata>
+          </item>
+          <item id='a6b1c1d1l3' text='噪声或振动过大'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	吸入管或过滤网堵塞
+              2.	吸入管深入液面较浅
+              3.	管道内进入空气
+              4.	排油管道阻力太大
+              5.	齿轮轴承或侧板严重磨损
+              6.	回转部分发生干涩
+              7.	吸入液体的黏度太大
+              8.	吸入高度超过额定值
+            </userdata>
+            <userdata name='solution'>
+              1.	清除过滤网上的污物
+              2.	吸入管应插入液面适当深度
+              3.	检查各密封圈面或更换密封
+              4.	检查排出管道及阀门是否堵塞
+              5.	拆开清洗，并修整缺陷或更换
+              6.	拆下检查并排除故障
+              7.	进行黏度测定并增加加热装置
+              8.	提高吸入液面
+            </userdata>
+          </item>
+        </item>
+        <item id='a6b1c1d2' text='滤油机'>
+          <userdata name='type'>part_4</userdata>
+          <item id='a6b1c1d2e1' text='板框式压力滤油机'>
+            <item id='a5b1c1d2e1l1' text='板框式压力滤油机1'>
+              <userdata name='type'>fault</userdata>
+              <userdata name='description'>
+                1.	油路系统连接处漏油
+              </userdata>
+              <userdata name='solution'>
+                1.	拧紧螺母或更换密封垫片
+              </userdata>
+            </item>
+            <item id='a5b1c1d2e1l2' text='板框式压力滤油机2'>
+              <userdata name='type'>fault</userdata>
+              <userdata name='description'>
+                1.	滤油量不足
+              </userdata>
+              <userdata name='solution'>
+                1.	清洗滤油器
+                2.	检查滤板及滤框的同一凸耳是否置于一边，且与前压板凸耳相同
+                3.	滤纸的两孔是否对准滤板的两孔
+              </userdata>
+            </item>
+            <item id='a5b1c1d2e1l3' text='板框式压力滤油机3'>
+              <userdata name='type'>fault</userdata>
+              <userdata name='description'>
+                1.	安全阀漏气，压力不足
+              </userdata>
+              <userdata name='solution'>
+                1.	调整弹簧压力至安全阀开启压力
+                2.	将安全阀清洗后用金刚砂研磨
+              </userdata>
+            </item>
+            <item id='a5b1c1d2e1l4' text='板框式压力滤油机4'>
+              <userdata name='type'>fault</userdata>
+              <userdata name='description'>
+                1. 滤油机不能启动
+              </userdata>
+              <userdata name='solution'>
+                1.	熔丝烧断，应更换
+                2.	插头接触不良，检查后予以检查
+              </userdata>
+            </item>
+          </item>
+        </item>
+        <item id='a6b1c1d2e2' text='真空滤油机'>
+          <item id='a6b1c1d2e2l1' text='启动不正常'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	电器组件故障
+            </userdata>
+            <userdata name='solution'>
+              1.	更换电器组件
+            </userdata>
+          </item>
+          <item id='a6b1c1d2e2l2' text='真空度降低'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	真空泵故障
+              2.	真空管路漏气
+              3.	真空泵油不足
+              4.	真空泵油有水污染
+              5.	真空表指示不正确
+              6.	进油口进油不足
+            </userdata>
+            <userdata name='solution'>
+              1.	检查或更换真空泵
+              2.	检查管路
+              3.	补充真空泵油至油标线上
+              4.	更换新油
+              5.	校准或更换真空表
+              6.	减小进油阀开启量
+            </userdata>
+          </item>
+          <item id='a6b1c1d2e2l3' text='真空泵进水'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	冷却器积水过多
+              2.	处理的油中含水量多，水蒸气未能在冷却器中冷却成水而直接进入真空泵
+            </userdata>
+            <userdata name='solution'>
+              1.	观察冷却器上的液位计,若水位过高,应及时放掉
+              2.	开始真空泵排气阀,更换真空泵油
+            </userdata>
+          </item>
+          <item id='a6b1c1d2e2l4' text='真空泵喷油'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	处理油进入真空泵,导致油位增加向外喷出
+            </userdata>
+            <userdata name='solution'>
+              1.	检查浮球控制阀是否正常,进油量过大导致油回进真空泵
+            </userdata>
+          </item>
+          <item id='a6b1c1d2e2l5' text='电动机中途停止'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	电压过高
+              2.	电源缺相
+              3.	传动皮带过紧或过松
+            </userdata>
+            <userdata name='solution'>
+              1.	暂停使用
+              2.	检查、恢复电源
+              3.	调节皮带位置
+            </userdata>
+          </item>
+          <item id='a6b1c1d2e2l6' text='排油量减少，表压力增大'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	真空度过高
+              2.	油泵油封漏气
+              3.	油泵磨损
+              4.	滤芯被杂质堵塞
+            </userdata>
+            <userdata name='solution'>
+              1.	降低真空度
+              2.	更换油封
+              3.	更换油泵部件
+              4.	清洗或更换滤芯
+            </userdata>
+          </item>
+          <item id='a6b1c1d2e2l7' text='进油量不足'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	初滤器滤芯堵塞
+              2.	真空度过低
+            </userdata>
+            <userdata name='solution'>
+              1.	清洗或更换滤芯
+              2.	按真空度降低故障处理
+            </userdata>
+          </item>
+          <item id='a6b1c1d2e2l8' text='启动加热器，油温不升高'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	感温探头露出
+              2.	加热接触器故障
+              3.	电路断路
+              4.	加热管损坏
+            </userdata>
+            <userdata name='solution'>
+              1.	固定感温探头
+              2.	检修或更换
+              3.	检修
+              4.	更换加热管
+            </userdata>
+          </item>
+          <item id='a6b1c1d2e2l9' text='过滤油不合格'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	油中含水量高
+              2.	油液加热不足
+              3.	滤芯破损
+              4.	真空度过低
+            </userdata>
+            <userdata name='solution'>
+              1.	增加过滤次数
+              2.	提高加热温度
+              3.	更换滤芯
+              4.	提高真空度
+            </userdata>
+          </item>
+        </item>
+      </item>
+      <item id='a6b1c2' text='绝缘油（变压器油）'>
+        <userdata name='type'>part_3</userdata>
+        <item id='a6b1c2l1' text='不透明，有可见杂质或油泥沉淀物'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	油中含有水分或纤维、碳黑及其他固体物
+          </userdata>
+          <userdata name='solution'>
+            1.	检查含水量，与其他试验配合，决定措施
+          </userdata>
+        </item>
+        <item id='a6b1c2l2' text='油色太深，有异常气味'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	可能过度劣化或污染
+          </userdata>
+          <userdata name='solution'>
+            1.	检查酸值、闪点、油泥，以决定措施
+          </userdata>
+        </item>
+        <item id='a6b1c2l3' text='水分超极限值'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	密封不严，潮气侵入
+            2.	超温运行，导致固体绝缘老化或油质劣化较深
+          </userdata>
+          <userdata name='solution'>
+            1.	更换呼吸器内干燥剂
+            2.	降低运行温度
+            3.	采用真空过滤机处理
+          </userdata>
+        </item>
+        <item id='a6b1c2l4' text='酸值超0.1mgKOH/g'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	超负荷运行
+            2.	抗氧化剂消耗
+            3.	补错油
+            4.	油被污染
+          </userdata>
+          <userdata name='solution'>
+            1.	调查原因增加试验次数，投入净油器或更换吸附剂，测定抗氧化剂含量，适当补加更换呼吸器内干燥剂
+          </userdata>
+        </item>
+        <item id='a6b1c2l5' text='水溶性酸超极限值'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	油质老化
+            2.	油被污染
+          </userdata>
+          <userdata name='solution'>
+            1.	与酸值进行比较查明原因，投入净油器
+          </userdata>
+        </item>
+        <item id='a6b1c2l6' text='击穿电压超极限值'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	油中水分含量过大
+            2.	油中有杂质颗粒污染
+          </userdata>
+          <userdata name='solution'>
+            1.	检查水分含量，对大型变压器检测油中颗粒度，进行真空滤油或更换新油
+          </userdata>
+        </item>
+        <item id='a6b1c2l7' text='介质损耗因数超极限值'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	油质老化程度较深
+            2.	油被污染
+            3.	油中有极性胶体杂质
+          </userdata>
+          <userdata name='solution'>
+            1.	检查酸值、水分、界面张力，进行再生处理，或更换新油
+          </userdata>
+        </item>
+        <item id='a6b1c2l8' text='界面张力超极限值'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	油质老化严重，油中有可溶性或油泥析出
+            2.	油质污染
+          </userdata>
+          <userdata name='solution'>
+            1.	结合酸值、油泥的测定采取对策进行再生处理或更换新油
+          </userdata>
+        </item>
+        <item id='a6b1c2l9' text='油泥和沉淀物超极限值'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	油质深度老化
+            2.	杂质污染
+          </userdata>
+          <userdata name='solution'>
+            1.	进行油处理，如经济合理可换油
+          </userdata>
+        </item>
+        <item id='a6b1c2l10' text='闪点超极限值'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	设备存在局部过热或电性故障
+            2.	补错油
+          </userdata>
+          <userdata name='solution'>
+            1.	查明原因消除故障，进行真空脱气处理或换油
+          </userdata>
+        </item>
+        <item id='a6b1c2l11' text='溶解气体组分含量超极限值'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	设备存在局部过热或放电性故障
+          </userdata>
+          <userdata name='solution'>
+            1.	进行追踪分析，彻底检查设备，找出故障点，消除隐患，进行真空脱气处理
+          </userdata>
+        </item>
+        <item id='a6b1c2l12' text='油中气体含量超极限值'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	新装投运和检修后的变压器脱气和排气不彻底
+            2.	干燥不彻底，在投运后从器身固体绝缘材料中逐渐释放出气体
+            3.	变压器内部存在负压区，外界大气通过密封不严部位进入变压器
+          </userdata>
+          <userdata name='solution'>
+            1.	对泵壳进行改造，尽量使其成为流线型
+            2.	避免在泵壳上设计排气塞和放油塞，减少密封部件。选择适当容量的潜油泵和管径的管路
+            3.	避免采用进油阀来调节油的流量和压力
+            4.	潜油泵检修时，需对潜油泵和冷却器进行多次排气
+          </userdata>
+        </item>
+        <item id='a6b1c2l13' text='体积电阻率超极限值'>
+          <userdata name='type'>fault</userdata>
+          <userdata name='description'>
+            1.	油老化程度较深
+            2.	油被污染
+            3.	油中含有极性杂质
+          </userdata>
+          <userdata name='solution'>
+            1.	检查酸值、水分、界面张力，查明原因，再生或更换新油
+            2.	降低流速
+            3.	添加苯并三唑
+            4.	改进变压器设计
+            5.	加强在线监测或带电测量
+          </userdata>
+        </item>
+      </item>
+    </item>
+    <item id='a6b2' text='水系统'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a6b2c1' text='技术供水系统'>
+        <userdata name='type'>part_3</userdata>
+        <item id='a6b2c1d1' text='减压阀'>
+          <userdata name='type'>part_4</userdata>
+          <item id='a6b2c1d1l1' text='主阀自调时间长'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	针阀调整开度过大
+              2.	过滤器堵塞
+              3.	某一个过滤器反冲洗装置故障，不停的反冲
+            </userdata>
+            <userdata name='solution'>
+              1.	将针阀开度调小
+              2.	清扫过滤器
+              3.	检修反冲洗装置
+            </userdata>
+          </item>
+          <item id='a6b2c1d1l2' text='主阀出口压力过低，不能自调'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	导阀出口管堵塞
+              2.	导阀出口管的球阀被关小或损坏
+              3.	导阀隔膜上部的弹簧失效或疲乏
+              4.	导阀轴或主阀轴卡阻
+            </userdata>
+            <userdata name='solution'>
+              1.	清扫出口管
+              2.	重新打开或更换球阀
+              3.	更换弹簧
+              4.	清扫导阀轴或主阀轴
+            </userdata>
+          </item>
+          <item id='a6b2c1d1l3' text='主阀出口压力过高，不能自调'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	反馈装置堵塞或漏油
+              2.	过滤器堵塞
+              3.	导阀轴或主阀轴卡阻
+              4.	导阀进口管堵塞
+              5.	导阀出口管的球阀被关小或损坏
+            </userdata>
+            <userdata name='solution'>
+              1.	检查隔膜阀，清扫管道，处理漏油点并加油
+              2.	清扫过滤器
+              3.	清扫导阀轴或主阀轴
+              4.	清扫进口管
+              5.	重新打开或更换球阀
+            </userdata>
+          </item>
+        </item>
+        <item id='a6b2c1d2' text='滤水器'>
+          <userdata name='type'>part_4</userdata>
+          <item id='a6b2c1d2l1' text='旋转机构不动'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	挡板与滤筒间卡有异物
+              2.	电动机故障或减速箱故障
+            </userdata>
+            <userdata name='solution'>
+              1.	清除异物
+              2.	检查电动机或减速箱
+            </userdata>
+          </item>
+          <item id='a6b2c1d2l2' text='排污阀频繁开关'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	排污阀、传动机构故障或排污阀内卡有异物
+            </userdata>
+            <userdata name='solution'>
+              1.	检查排污阀及电动装置
+            </userdata>
+          </item>
+          <item id='a6b2c1d2l3' text='进出口压差过大'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	部分滤网堵塞
+            </userdata>
+            <userdata name='solution'>
+              1.	清扫或更换堵塞滤筒
+            </userdata>
+          </item>
+        </item>
+        <item id='a6b2c1d3' text='泄压阀/持压阀'>
+          <userdata name='type'>part_4</userdata>
+          <item id='a6b2c1d3l1' text='主阀打不开'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	主阀损坏或主阀有卡阻
+              2.	泄压阀泄压设定值有误
+              3.	导阀膜片损坏，活门堵塞或损坏，轴芯卡阻
+            </userdata>
+            <userdata name='solution'>
+              1.	检修或清洗主阀
+              2.	重新设定泄压值
+              3.	更换膜片、活门、轴芯
+            </userdata>
+          </item>
+          <item id='a6b2c1d3l2' text='主阀关不严'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	主阀阀盘有异物
+              2.	导阀阀盘有异物
+              3.	导阀阀盘密封圈损坏
+              4.	轴芯卡阻
+              5.	导阀弹簧失效或疲乏
+            </userdata>
+            <userdata name='solution'>
+              1.	清除异物
+              2.	清除杂物
+              3.	更换密封圈
+              4.	更换轴芯
+              5.	更换或旋转弹簧
+            </userdata>
+          </item>
+        </item>
+        <item id='a6b2c1d4' text='阀门'>
+          <userdata name='type'>part_4</userdata>
+          <item id='a6b2c1d4l1' text='电动阀开关运转中电动机停止'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	负荷过大，转矩开关动作
+              2.	热继电器动作
+              3.	阀门荷载大
+            </userdata>
+            <userdata name='solution'>
+              1.	提高转矩设定值
+              2.	更换热继电器或检查电动机绝缘
+              3.	检查阀门
+              应定期操作阀门
+            </userdata>
+          </item>
+          <item id='a6b2c1d4l2' text='电动阀拒动'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	断路器调整不良
+              2.	控制电源故障
+              3.	限位断路器齿轮破损
+            </userdata>
+            <userdata name='solution'>
+              1.	重调
+              2.	检查排除
+              3.	更换
+            </userdata>
+          </item>
+          <item id='a6b2c1d4l3' text='电动阀全开、全关，指示灯不亮'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	转矩断路器动作，阀门没到位
+            </userdata>
+            <userdata name='solution'>
+              1.	调整转矩断路器
+            </userdata>
+          </item>
+          <item id='a6b2c1d4l4' text='阀门操作装置漏油'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	密封损坏
+            </userdata>
+            <userdata name='solution'>
+              1.	修复密封
+            </userdata>
+          </item>
+          <item id='a6b2c1d4l5' text='阀门填料函漏水'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	盘根磨损
+              2.	密封圈磨损
+            </userdata>
+            <userdata name='solution'>
+              1.	更换盘根
+              2.	更换密封圈
+            </userdata>
+          </item>
+        </item>
+        <item id='a6b2c1d5' text='电动双向供水转阀'>
+          <userdata name='type'>part_4</userdata>
+          <item id='a6b2c1d5l1' text='转阀'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	热继电器动作
+              2.	转矩开关动作
+              3.	阀门操作转矩过大
+            </userdata>
+            <userdata name='solution'>
+              1.	等待热继电器恢复正常
+              2.	将转矩开关向增大转矩方向调整
+              3.	强制启动
+              4.	检查阀门
+            </userdata>
+          </item>
+          <item id='a6b2c1d5l2' text='断路器运转中电动机停止'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	负荷过大，转矩断路器动作
+              2.	热继电器动作
+              3.	阀门荷载大
+              4.	断路器调整不良
+              4.	调整后调节螺杆没复位
+              5.	控制电源故障
+              6.	限位断路器齿轮破损
+            </userdata>
+            <userdata name='solution'>
+              1.	提高转矩设定值
+              2.	更换热继电器或检查电动机绝缘
+              3.	检查阀门
+              4.	应定期操作阀门
+              5.	重调
+              6.	复位
+              7.	检查排除
+              8.	更换
+            </userdata>
+          </item>
+          <item id='a6b2c1d5l3' text='电动阀全开、全关，指示灯不亮'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	转矩断路器动作，阀门没到位
+            </userdata>
+            <userdata name='solution'>
+              1.	调整转矩断路器
+            </userdata>
+          </item>
+          <item id='a6b2c1d5l4' text='漏油'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	密封损坏
+              2.	环境温度高，主箱体内压力高
+            </userdata>
+            <userdata name='solution'>
+              1.	修复密封
+              2.	松动一处不影响工作的螺栓（最好是油塞）排气
+            </userdata>
+          </item>
+          <item id='a6b2c1d5l5' text='启动时阀杆振动'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	阀杆螺母松动
+            </userdata>
+            <userdata name='solution'>
+              1.	紧固螺母
+            </userdata>
+          </item>
+          <item id='a6b2c1d5l6' text='手动不转动'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	离合器牙嵌与手轮体牙嵌没啮合
+            </userdata>
+            <userdata name='solution'>
+              1.	少许转动使牙嵌错开
+            </userdata>
+          </item>
+          <item id='a6b2c1d5l7' text='电动机运转但阀门不动'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	手动切换机构不正常
+              2.	锁紧螺母松动
+            </userdata>
+            <userdata name='solution'>
+              1.	解体检查
+              2.	拧紧
+            </userdata>
+          </item>
+          <item id='a6b2c1d5l8' text='主阀漏水'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	盘根磨损
+              2.	密封圈磨损
+            </userdata>
+            <userdata name='solution'>
+              1.	更换盘根
+              2.	更换密封圈
+            </userdata>
+          </item>
+        </item>
+      </item>
+      <item id='a6b2c2' text='排水系统'>
+        <userdata name='type'>part_3</userdata>
+        <item id='a6b2c2d1' text='深井水泵'>
+          <userdata name='type'>part_4</userdata>
+          <item id='a6b2c2d1l1' text='电动机通电后不转，且有不正常响声'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	定子单相短路
+              2.	电源一相无电
+              3.	绕组的接头与接线板接得不对
+              4.	电动机转向不对
+              5.	橡胶轴承内孔变形
+            </userdata>
+            <userdata name='solution'>
+              1.	修理电动机
+              2.	查出断电原因并消除
+              3.	清理定子绕组相位，重新接好
+              4.	调换接头
+              5.	拆泵更换
+            </userdata>
+          </item>
+          <item id='a6b2c2d1l2' text='电动机启动后转速低'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	相绕组首末接错
+              2.	电压过低
+            </userdata>
+            <userdata name='solution'>
+              1.	清理相绕组，重新接到线板上
+              2.	升高电压后再启动
+            </userdata>
+          </item>
+          <item id='a6b2c2d1l3' text='电动机运转时有不正常响声并发热'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	绕组断路
+            </userdata>
+            <userdata name='solution'>
+              1.	修理电动机绕组
+            </userdata>
+          </item>
+          <item id='a6b2c2d1l4' text='电动机中的止逆装置失灵'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	止逆销磨损或有油污
+              2.	止逆盘槽孔磨损
+            </userdata>
+            <userdata name='solution'>
+              1.	更换轴承
+              2.	补充或减少润滑油
+              3.	换更合适的润滑油
+            </userdata>
+          </item>
+          <item id='a6b2c2d1l5' text='电动机中轴承部位温度过高'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	轴承负荷太大或轴承已损坏
+              2.	润滑油不足或过多
+              3.	润滑油不清洁或太稠
+            </userdata>
+            <userdata name='solution'>
+              1.	更换轴承
+              2.	补充或减少润滑油
+              3.	换更合适的润滑油
+            </userdata>
+          </item>
+          <item id='a6b2c2d1l6' text='电动机电流在泵运转中升高'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	电压降低
+              2.	电动机轴承损坏
+              3.	叶轮与壳体有摩擦
+              4.	泵吸入大量泥沙
+            </userdata>
+            <userdata name='solution'>
+              1.	停泵、升压后再启动泵
+              2.	拆检、更换轴承
+              3.	停泵、重新调节轴向间隙
+              4.	拆泵、清理集水井
+            </userdata>
+          </item>
+          <item id='a6b2c2d1l7' text='水泵不出水或出水连续'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	传动轴断轴
+              2.	扬水管破裂
+            </userdata>
+            <userdata name='solution'>
+              1.	拆泵，找出损坏原因
+              2.	更换损坏件
+            </userdata>
+          </item>
+          <item id='a6b2c2d1l8' text='水泵出水量显著降低'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	转速不对
+              2.	滤水网被异物堵塞
+              3.	扬水管或壳体连接处漏水
+              4.	个别叶轮松脱，转不动
+              5.	电源频率太低
+              6.	泵密封环磨损严重
+              7.	叶轮与中壳斜面间隙过大
+            </userdata>
+            <userdata name='solution'>
+              1.	调整使其满足额定转速
+              2.	拆泵、清理滤水网
+              3.	更换损坏零件
+              4.	拆开泵体组装，重新装配
+              5.	增加频率，使之达到要求
+              6.	更换密封环并修理叶轮口环
+              7.	减小叶轮与中壳的轴向间隙
+            </userdata>
+          </item>
+          <item id='a6b2c2d1l9' text='水泵剧烈振动'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	启动时未添加润滑水润滑轴承
+              2.	运转中叶轮与壳体摩擦
+              3.	传动轴及电动机轴弯曲
+              4.	橡胶轴承磨损过量
+              5.	电动机轴与传动轴不同心
+            </userdata>
+            <userdata name='solution'>
+              1.	停机、检查润滑水投入预润滑情况，确保正常
+              2.	停机、调整轴向间隙
+              3.	拆泵，校直轴
+              4.	拆泵、更换轴承
+              5.	重新安装
+            </userdata>
+          </item>
+          <item id='a6b2c2d1l10' text='填料箱漏水太多'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	填料或电动机轴磨损
+              2.	填料过硬
+              3.	填料没压紧
+              4.	轴弯
+            </userdata>
+            <userdata name='solution'>
+              1.	更换填料或电动机轴
+              2.	更换填料
+              3.	压紧填料压盖
+              4.	校直轴
+            </userdata>
+          </item>
+          <item id='a6b2c2d1l11' text='填料箱过热'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	电动机轴弯曲
+              2.	填料箱处漏水太少或不漏
+            </userdata>
+            <userdata name='solution'>
+              1.	校直电动机轴
+              2.	松动填料压盖放松填料
+            </userdata>
+          </item>
+          <item id='a6b2c2d1l12' text='启动电流较大'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	轴向间隙调整不当
+              2.	电动机故障
+              3.	橡胶轴承与传动轴承配合过紧
+            </userdata>
+            <userdata name='solution'>
+              1.	重新调整轴向间隙
+              2.	检查电动机并处理
+              3.	安装过程中控制好配合间隙
+            </userdata>
+          </item>
+          <item id='a6b2c2d1l13' text='声音异常'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	电动机轴承故障
+              2.	扬水管连接处螺栓松动
+              3.	传动轴弯曲
+              4.	轴承支架损坏
+              5.	叶轮破碎
+            </userdata>
+            <userdata name='solution'>
+              1.	检查电动机并处理
+              2.	检查水泵、确定具体部位做出相应处理方案
+            </userdata>
+          </item>
+          <item id='a6b2c2d1l14' text='水泵效率低'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	叶轮损坏或磨损严重
+              2.	叶轮轴向间隙偏离标准值
+              3.	滤水管堵塞
+            </userdata>
+            <userdata name='solution'>
+              1.	大修处理
+              2.	重新调整叶轮轴向间隙
+            </userdata>
+          </item>
+        </item>
+        <item id='a6b2c2d2' text='潜水排污泵'>
+          <userdata name='type'>part_4</userdata>
+          <item id='a6b2c2d2l1' text='水泵不启动'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	接线端子箱接头松动
+              2.	电动机绕组短路
+            </userdata>
+            <userdata name='solution'>
+              1.	检查并处理
+            </userdata>
+          </item>
+          <item id='a6b2c2d2l2' text='水泵运行中非正常停泵'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	保护器动作
+              2.	缺相
+              3.	叶轮缠绕
+              4.	控制柜故障
+            </userdata>
+            <userdata name='solution'>
+              1.	查找原因并处理
+              2.	检查线路
+              3.	清除杂物
+              4.	检查并处理
+            </userdata>
+          </item>
+          <item id='a6b2c2d2l3' text='流量或杨程下降'>
+            <userdata name='type'>fault</userdata>
+            <userdata name='description'>
+              1.	出口管路泄漏
+              2.	出口管路局部堵塞
+              3.	水泵流道堵塞
+              4.	叶轮、密封环磨损
+            </userdata>
+            <userdata name='solution'>
+              1.	找出泄漏部位并处理
+              2.	清理管路
+              3.	清理水泵流道
+              4.	按叶轮口环实际尺寸配密封环
+            </userdata>
+          </item>
+        </item>
+      </item>
+    </item>
+    <item id='a6b3' text='压缩空气系统'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a6b3c1' text='活塞式压缩机'>
+        <userdata name='type'>part_3</userdata>
+      </item>
+      <item id='a6b3c2' text='气阀'>
+        <userdata name='type'>part_3</userdata>
+      </item>
+      <item id='a6b3c3' text='螺杆式压缩机'>
+        <userdata name='type'>part_3</userdata>
+      </item>
+      <item id='a6b3c4' text='冷冻式干燥机'>
+        <userdata name='type'>part_3</userdata>
+      </item>
+      <item id='a6b3c5' text='气体减压阀'>
+        <userdata name='type'>part_3</userdata>
+      </item>
+    </item>
+    <item id='a6b4' text='厂用电系统'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a6b4c1' text='中压断路器'>
+        <userdata name='type'>part_3</userdata>
+      </item>
+      <item id='a6b4c2' text='低压断路器'>
+        <userdata name='type'>part_3</userdata>
+      </item>
+      <item id='a6b4c3' text='干式变压器'>
+        <userdata name='type'>part_3</userdata>
+      </item>
+      <item id='a6b3c4' text='母线'>
+        <userdata name='type'>part_3</userdata>
+      </item>
+      <item id='a6b3c5' text='电缆'>
+        <userdata name='type'>part_3</userdata>
+      </item>
+    </item>
+    <item id='a6b5' text='直流系统'>
+      <userdata name='type'>part_2</userdata>
+      <item id='a6b5c1' text='蓄电池'>
+        <userdata name='type'>part_3</userdata>
+        <item id='a6b5c1d1' text='防酸蓄电池'>
+          <userdata name='type'>part_4</userdata>
+        </item>
+        <item id='a6b5c1d2' text='镉镍蓄电池'>
+          <userdata name='type'>part_4</userdata>
+        </item>
+        <item id='a6b5c1d3' text='阀控蓄电池'>
+          <userdata name='type'>part_4</userdata>
+        </item>
+      </item>
+      <item id='a6b5c2' text='直流系统接地故障'>
+        <userdata name='type'>part_3</userdata>
+      </item>
+    </item>
+  </item>
+</tree>
