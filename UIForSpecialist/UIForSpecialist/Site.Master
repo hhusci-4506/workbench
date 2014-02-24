@@ -30,6 +30,10 @@
         {
             color:White;
         }
+        html,body
+        {
+            height:100%;
+        }
     </style>
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
@@ -46,7 +50,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="/mulfunctionDb/TreeBuild.aspx">故障树建立</a></li>
-                        <li><a href="#">故障树搜索</a></li>
+                        <li><a href="/mulfunctionDb/TreeSearch.aspx">故障树搜索</a></li>
                         <li><a href="#">故障节点维护</a></li>
                     </ul>
                 </li>
