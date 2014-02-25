@@ -60,7 +60,6 @@
     <Content Include="App_Data\accountData.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Category.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="img\Aerial_view_-_Shasta_Dam_CA.jpg" />
     <Content Include="img\glyphicons-halflings-regular.svg" />
@@ -68,11 +67,13 @@
     <Content Include="img\glyphicons-halflings.png" />
     <Content Include="Index.aspx" />
     <Content Include="mulfunctionDb\TreeBuild.aspx" />
+    <Content Include="mulfunctionDb\TreeSearch.aspx" />
+    <Content Include="Scripts\bootstrap-combobox.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Styles\bootstrap-combobox.css" />
     <Content Include="Styles\bootstrap.min.css" />
     <Content Include="Styles\Site.css" />
-    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -120,20 +121,6 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Category.aspx.cs">
-      <DependentUpon>Category.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Category.aspx.designer.cs">
-      <DependentUpon>Category.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Front.Master.cs">
       <DependentUpon>Front.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -157,6 +144,12 @@
     </Compile>
     <Compile Include="mulfunctionDb\TreeBuild.aspx.designer.cs">
       <DependentUpon>TreeBuild.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mulfunctionDb\TreeSearch.aspx.cs">
+      <DependentUpon>TreeSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mulfunctionDb\TreeSearch.aspx.designer.cs">
+      <DependentUpon>TreeSearch.aspx</DependentUpon>
     </Compile>
     <Compile Include="NestedMasterPage1.master.cs">
       <DependentUpon>NestedMasterPage1.master</DependentUpon>

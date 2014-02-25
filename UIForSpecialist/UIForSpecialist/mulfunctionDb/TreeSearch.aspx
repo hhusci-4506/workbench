@@ -67,14 +67,6 @@ textarea
 }
 </style>
 <script type="text/javascript">
-
-    /*function remove(path,nd) {
-        path.splice($.inArray(nd, path), 1);
-        return path;
-    }
-    function bigCutSmall(bigstr, smstr) {
-        return bigstr.substring(0, bigstr.length - smstr.length);
-    }*/
     (function ($) {
         $.fn.extend({
             treeview: function (options) {
@@ -91,16 +83,8 @@ textarea
                 $this.find("li").each(function () {
                     if ($(this).find("ul").size() != 0) {
                         $(this).find("a:first").append("<span>" + opts.closedSign + "</span>");
-                        //if ($(this).find("a:first").attr('href') == "#") {
-                        //    $(this).find("a:first").click(function () { return false; });
-                        //}
                     }
                 });
-                /*$this.find("li.active").each(function () {
-                    
-                $(this).parents("ul").slideDown(opts.speed);
-                $(this).parents("ul").parent("li").find("span:first").html(opts.openedSign);
-                });*/
                 var activeNow = null;
                 var nodePath = new Array();
                 $this.find("li a").click(function () {
@@ -143,9 +127,6 @@ textarea
                         activeNow = $(this);
                         activeNow.css("background-color", "#afdfe4");
                         var contentPlc=new Array("#reason","#solution")
-                        //alert($(this).parent("li").find("a:first").text()); //有效，能找到点击的这个节点的文字
-                        //alert($(this).parent("li").parent("ul").parent("li").find("a:first").text());//有效，找到上一级树枝分叉处的文字
-                        //alert($(this).closest("ul").prev("a").text());//有效，能找到上一级分支处的文字
                         setTimeout(function () {
                             var trace = $this.find("ul:visible").delay(opts.speed * 2).prev("a").text();
                             trace = trace + activeNow.text();
@@ -166,20 +147,6 @@ textarea
                                     alert("error");
                                 }
                             });
-
-                            /*$.ajax({
-                                type: "Post",
-                                url: "TreeSearch.aspx/get_solution",
-                                data: '{nodepath:"' + nodePath + '"}',
-                                contentType: "application/json; charset=utf-8",
-                                dataType: "json",
-                                success: function (data) {
-                                    $("#solution").html(data.d);
-                                },
-                                error: function (err) {
-                                    alert("error");
-                                }
-                            });*/
                         }, 520);
 
                     }
