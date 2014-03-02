@@ -10,7 +10,7 @@
 namespace UIForSpecialist.systemMng {
     
     
-    public partial class UserMng {
+    public partial class CodeMng {
         
         /// <summary>
         /// treeBuild control.

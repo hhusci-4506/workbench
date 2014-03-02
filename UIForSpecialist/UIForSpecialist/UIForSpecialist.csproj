@@ -60,13 +60,19 @@
     <Content Include="App_Data\accountData.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="App_Data\roleData.xml" />
+    <Content Include="App_Data\treeData.xml" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="img\Aerial_view_-_Shasta_Dam_CA.jpg" />
-    <Content Include="img\glyphicons-halflings-regular.svg" />
     <Content Include="img\glyphicons-halflings-white.png" />
     <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="img\no-profile-picture-icon.jpg" />
     <Content Include="Index.aspx" />
+    <Content Include="modelDb\ModelChg.aspx" />
+    <Content Include="modelDb\ModelGen.aspx" />
+    <Content Include="modelDb\ModelUpd.aspx" />
     <Content Include="mulfunctionDb\TreeBuild.aspx" />
+    <Content Include="mulfunctionDb\TreeManage.aspx" />
     <Content Include="mulfunctionDb\TreeSearch.aspx" />
     <Content Include="Scripts\bootstrap-combobox.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -75,6 +81,10 @@
     <Content Include="Styles\bootstrap.min.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Global.asax" />
+    <Content Include="systemMng\CodeMng.aspx" />
+    <Content Include="systemMng\DataBackup.aspx" />
+    <Content Include="systemMng\RoleMng.aspx" />
+    <Content Include="systemMng\UserMng.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -138,6 +148,27 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="modelDb\ModelChg.aspx.cs">
+      <DependentUpon>ModelChg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modelDb\ModelChg.aspx.designer.cs">
+      <DependentUpon>ModelChg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modelDb\ModelGen.aspx.cs">
+      <DependentUpon>ModelGen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modelDb\ModelGen.aspx.designer.cs">
+      <DependentUpon>ModelGen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modelDb\ModelUpd.aspx.cs">
+      <DependentUpon>ModelUpd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modelDb\ModelUpd.aspx.designer.cs">
+      <DependentUpon>ModelUpd.aspx</DependentUpon>
+    </Compile>
     <Compile Include="mulfunctionDb\TreeBuild.aspx.cs">
       <DependentUpon>TreeBuild.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -145,8 +176,16 @@
     <Compile Include="mulfunctionDb\TreeBuild.aspx.designer.cs">
       <DependentUpon>TreeBuild.aspx</DependentUpon>
     </Compile>
+    <Compile Include="mulfunctionDb\TreeManage.aspx.cs">
+      <DependentUpon>TreeManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mulfunctionDb\TreeManage.aspx.designer.cs">
+      <DependentUpon>TreeManage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="mulfunctionDb\TreeSearch.aspx.cs">
       <DependentUpon>TreeSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="mulfunctionDb\TreeSearch.aspx.designer.cs">
       <DependentUpon>TreeSearch.aspx</DependentUpon>
@@ -166,14 +205,39 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="systemMng\CodeMng.aspx.cs">
+      <DependentUpon>CodeMng.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="systemMng\CodeMng.aspx.designer.cs">
+      <DependentUpon>CodeMng.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="systemMng\DataBackup.aspx.cs">
+      <DependentUpon>DataBackup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="systemMng\DataBackup.aspx.designer.cs">
+      <DependentUpon>DataBackup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="systemMng\RoleMng.aspx.cs">
+      <DependentUpon>RoleMng.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="systemMng\RoleMng.aspx.designer.cs">
+      <DependentUpon>RoleMng.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="systemMng\UserMng.aspx.cs">
+      <DependentUpon>UserMng.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="systemMng\UserMng.aspx.designer.cs">
+      <DependentUpon>UserMng.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="fonts\glyphicons-halflings-regular.ttf" />
     <None Include="fonts\glyphicons-halflings-regular.woff" />
-    <None Include="img\glyphicons-halflings-regular.eot" />
-    <None Include="img\glyphicons-halflings-regular.ttf" />
-    <None Include="img\glyphicons-halflings-regular.woff" />
     <Content Include="NestedMasterPage1.master" />
   </ItemGroup>
   <ItemGroup>
@@ -185,9 +249,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="knowledgeDb\" />
-    <Folder Include="modelDb\" />
     <Folder Include="mulfunctionCsDb\" />
-    <Folder Include="systemMng\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

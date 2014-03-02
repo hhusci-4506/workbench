@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/NestedMasterPage1.master" AutoEventWireup="true" CodeBehind="TreeSearch.aspx.cs" Inherits="UIForSpecialist.mulfunctionDb.treeSearch" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/NestedMasterPage1.master" AutoEventWireup="true" CodeBehind="TreeManage.aspx.cs" Inherits="UIForSpecialist.mulfunctionDb.TreeManage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 <style type="text/css">
 .topnav {
@@ -58,17 +58,37 @@ ul.topnav ul ul li a:hover {
 ul.topnav span{
 	float:right;
 }
-
 textarea
 {
     width:100%;
     line-height:1.5;
-    font-size: small;
+    font-size:small;
     padding: 4px 6px;
     margin-bottom: 10px;
 }
+.btn
+{
+    margin: 10px;
+}
+
+input[type="text"]
+{
+    height: 30px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #555555;
+    vertical-align: middle;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
 </style>
 <script type="text/javascript">
+    var activeNow = null;
+    var nodePath = new Array();
     (function ($) {
         $.fn.extend({
             treeview: function (options) {
@@ -87,8 +107,6 @@ textarea
                         $(this).find("a:first").append("<span>" + opts.closedSign + "</span>");
                     }
                 });
-                var activeNow = null;
-                var nodePath = new Array();
                 $this.find("li a").click(function () {
                     parents = $(this).parent().parents("ul");
                     visible = $this.find("ul:visible");
@@ -128,22 +146,23 @@ textarea
                         }
                         activeNow = $(this);
                         activeNow.css("background-color", "#afdfe4");
-                        var contentPlc=new Array("#reason","#solution")
+                        var contentPlc = new Array("#reason", "#solution")
+                        $("#nodename").val(activeNow.text());
                         setTimeout(function () {
                             var trace = $this.find("ul:visible").delay(opts.speed * 2).prev("a").text();
                             trace = trace + activeNow.text();
                             nodePath = trace.split(opts.openedSign);
-                            $.ajax({   
-                                type: "Post",     
+                            $.ajax({
+                                type: "Post",
                                 url: "TreeSearch.aspx/get_content",
                                 data: '{nodepath:"' + nodePath + '"}',
                                 contentType: "application/json; charset=utf-8",
                                 dataType: "json",
                                 success: function (data) {
-                                $.each(data.d, function (index, val) {
-                                      $(contentPlc[index]).html(val);
-                               });
-                                    
+                                    $.each(data.d, function (index, val) {
+                                        $(contentPlc[index]).html(val);
+                                    });
+
                                 },
                                 error: function (err) {
                                     alert("error");
@@ -166,39 +185,43 @@ textarea
             openedSign: '[-]'
         });
     });
+
+    $(document).ready(function () {
+        $('.combobox').combobox();
+    });
 </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="SideBarContent" runat="server">
 <ul class="topnav">
-	<li><a href="#">水轮机埋入部件</a>
+	<li><a href="#" id="水轮机埋入部件">水轮机埋入部件</a>
 		<ul>
-			 <li><a href="#">座环</a>
+			 <li><a href="#" id="座环">座环</a>
                 <ul>
-                    <li><a href="#">固定导叶的裂纹</a></li>
-                    <li><a href="#">泥沙磨损</a></li>
-                    <li><a href="#">腐蚀</a></li>
-                    <li><a href="#">水力损失</a></li>
-                    <li><a href="#">径向法兰渗流</a></li>
-                    <li><a href="#">蜗壳或半蜗壳</a>
+                    <li><a href="#" id="固定导叶的裂纹">固定导叶的裂纹</a></li>
+                    <li><a href="#" id="泥沙磨损">泥沙磨损</a></li>
+                    <li><a href="#" id="腐蚀">腐蚀</a></li>
+                    <li><a href="#" id="水力损失">水力损失</a></li>
+                    <li><a href="#" id="径向法兰渗流">径向法兰渗流</a></li>
+                    <li><a href="#" id="蜗壳或半蜗壳">蜗壳或半蜗壳</a>
                         <ul>
-                            <li><a href="#">座环区域裂纹（在钢板或焊接接头部位）</a></li>
-                            <li><a href="#">铆钉损坏</a></li>
-                            <li><a href="#">表面光洁度降低严重</a></li>
-                            <li><a href="#">壁厚受损</a></li>
-                            <li><a href="#">进入孔渗漏或进入孔失灵</a></li>
-                            <li><a href="#">混凝土过水表面损坏</a></li>
+                            <li><a href="#" id="座环区域裂纹（在钢板或焊接接头部位）">座环区域裂纹（在钢板或焊接接头部位）</a></li>
+                            <li><a href="#" id="铆钉损坏">铆钉损坏</a></li>
+                            <li><a href="#" id="表面光洁度降低严重">表面光洁度降低严重</a></li>
+                            <li><a href="#" id="壁厚受损">壁厚受损</a></li>
+                            <li><a href="#" id="进入孔渗漏或进入孔失灵">进入孔渗漏或进入孔失灵</a></li>
+                            <li><a href="#" id="混凝土过水表面损坏">混凝土过水表面损坏</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">基础环</a></li>
-                    <li><a href="#">尾水管</a>
+                    <li><a href="#" id="基础环">基础环</a></li>
+                    <li><a href="#" id="尾水管">尾水管</a>
                         <ul>
-                            <li><a href="#">尾水管里衬背后脱空或里衬与混凝土之间分离</a></li>
-                            <li><a href="#">腐蚀或磨损</a></li>
-                            <li><a href="#">裂纹</a></li>
-                            <li><a href="#">空蚀破坏</a></li>
-                            <li><a href="#">效率或功率低于正常值</a></li>
-                            <li><a href="#">尾水管表面与外形受损</a></li>
-                            <li><a href="#">弯肘形尾水管压力脉动</a></li>
+                            <li><a href="#" id="尾水管里衬背后脱空或里衬与混凝土之间分离">尾水管里衬背后脱空或里衬与混凝土之间分离</a></li>
+                            <li><a href="#" id="腐蚀或磨损">腐蚀或磨损</a></li>
+                            <li><a href="#" id="裂纹">裂纹</a></li>
+                            <li><a href="#" id="空蚀破坏">空蚀破坏</a></li>
+                            <li><a href="#" id="效率或功率低于正常值">效率或功率低于正常值</a></li>
+                            <li><a href="#" id="尾水管表面与外形受损">尾水管表面与外形受损</a></li>
+                            <li><a href="#" id="弯肘形尾水管压力脉动">弯肘形尾水管压力脉动</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -206,36 +229,49 @@ textarea
              
 		</ul>
 	</li>
-	<li><a href="#">水轮机非埋入、非旋转部件</a></li>
-	<li><a href="#">水轮机旋转部件</a></li>
-	<li><a href="#">水轮机辅助设备</a></li>
-    <li><a href="#">发电机部件</a></li>
-    <li><a href="#">辅助设备</a></li>
+	<li><a href="#" id="水轮机非埋入、非旋转部件">水轮机非埋入、非旋转部件</a></li>
+	<li><a href="#" id="水轮机旋转部件">水轮机旋转部件</a></li>
+	<li><a href="#" id="水轮机辅助设备">水轮机辅助设备</a></li>
+    <li><a href="#" id="发电机部件">发电机部件</a></li>
+    <li><a href="#" id="辅助设备">辅助设备</a></li>
 </ul>
 </asp:Content>
-
 <asp:Content ID="Content3" ContentPlaceHolderID="Span9Content" runat="server">
     <div class="row col-sm-12 col-md-12">
-        <h3 class="sub-header page-header"><b>故障树搜索</b></h3>
+        <h3 class="sub-header page-header"><b>故障节点维护</b></h3>
     </div>
-     <div class="row col-sm-12 col-md-12">
+    <div class="row col-sm-12 col-md-12">
         <div class="row col-sm-2 col-md-2">
-            <label class="pull-left sub-header" >故障原因：</label>
+            <label class="pull-left">节点名称：</label>
         </div>
         <div class="row col-sm-10 col-md-10">
-            <textarea rows="10" id="reason" readonly="readonly">
+            <input type="text" class ="form-inline pull-left" id="nodename" />
+        </div>
+            
+        
+    </div>
+    <div class="row col-sm-12 col-md-12">
+        <div class="row col-sm-2 col-md-2">
+            <label class="pull-left" >故障原因：</label>
+        </div>
+        <div class="row col-sm-10 col-md-10">
+            <textarea rows="10" id="reason">
             </textarea>
         </div>
         
     </div>
     <div class="row col-sm-12 col-md-12">
         <div class="row col-sm-2 col-md-2">
-            <label class="pull-left sub-header">解决方法：</label>
+            <label class="pull-left">解决方法：</label>
         </div>
         <div class="row col-sm-10 col-md-10">
-            <textarea rows="10" id="solution" readonly="readonly">
+            <textarea rows="10" id="solution">
             </textarea>
         </div>
     </div>
-
+    <div class="row col-sm-12 col-md-12">
+        <asp:Button ID="treeBuild" runat="server" Text="保存节点" CssClass = "btn btn-success btn-lg pull-right"/>
+        <asp:Button ID="Button1" runat="server" Text="删除节点" CssClass = "btn btn-success btn-lg pull-right"/>
+        <asp:Button ID="Button2" runat="server" Text="取消操作" CssClass = "btn btn-success btn-lg pull-right"/>
+    </div>
 </asp:Content>

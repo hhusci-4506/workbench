@@ -32,36 +32,12 @@ namespace UIForSpecialist.mulfunctionDb
             string r = linqThrough(root, nodlst, RSN);
             nodlst = new List<string>(nodes);
             string s = linqThrough(root, nodlst, SLTN);
-            
+
             List<string> content = new List<string>();
             content.Add(r);
             content.Add(s);
             return content;
         }
-
-        //[WebMethod]
-       /* protected static string get_reason(XElement root, List<string> nodlst)
-        {
-            /*string treeXmlPath = HttpContext.Current.ApplicationInstance.Server.MapPath("~/App_Data/") + "treeData.xml";
-            string[] nodes = nodepath.Split(',');
-            List<string> nodlst = new List<string>(nodes);
-            XElement root = XElement.Load(treeXmlPath);
-            
-            string reason = linqThrough(root, nodlst, RSN);
-            return reason;
-        }
-
-        //[WebMethod]
-        protected static string get_solution(XElement root, List<string> nodlst)
-        {
-            /*string treeXmlPath = HttpContext.Current.ApplicationInstance.Server.MapPath("~/App_Data/") + "treeData.xml";
-            string[] nodes = nodepath.Split(',');
-            List<string> nodlst = new List<string>(nodes);
-            XElement root = XElement.Load(treeXmlPath);
-            
-            string solution = linqThrough(root, nodlst, SLTN);
-            return solution;
-        }*/
 
         protected static string linqThrough(XElement root, List<string> nodes, string contType)
         {

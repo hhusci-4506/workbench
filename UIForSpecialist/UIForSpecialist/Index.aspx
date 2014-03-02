@@ -21,7 +21,7 @@
                     <input type="text" class="form-control input-lg" name="code" placeholder="code"/>
                 </p>
                 <p class="text-center">
-                    <asp:Button runat="server" ID="loginBtn" Text="登录" CssClass="btn btn-success btn-lg" onclick="loginBtn_Click" />
+                    <asp:Button runat="server" ID="loginBtn" Text="登录" CssClass="btn btn-success btn-lg" width="160px" onclick="loginBtn_Click" />
                 </p>
             </form>
 

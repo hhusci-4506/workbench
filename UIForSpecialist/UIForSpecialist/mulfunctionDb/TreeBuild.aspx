@@ -69,6 +69,9 @@ textarea
 .input-large
 {
     width:200px;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
 }
 
 input[type="text"]
@@ -80,16 +83,9 @@ font-size: 14px;
 line-height: 30px;
 color: #555555;
 vertical-align: middle;
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px;
-}
-
-textarea
-{
-    width:100%;
-    height:40%;
-    line-height:1.5
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
 }
 
 </style>
@@ -231,6 +227,9 @@ textarea
 </asp:Content>
 
 <asp:Content runat="server" ID="ContentTreeMain" ContentPlaceHolderID="Span9Content">
+<div class="row col-sm-12 col-md-12">
+        <h3 class="sub-header page-header"><b>故障树建立</b></h3>
+    </div>
     <div class="row col-sm-12 col-md-12">
         <div class="row col-sm-6 col-md-6">
         <label class="pull-left">节点名称：</label>
@@ -255,13 +254,7 @@ textarea
     
     <script language="javascript">
         function foo() {
-            var child = document.createElement("ul");
-            var chd = document.createElement("li");
-            child.appendChild(chd);
-            chd.innerHTML = "新子节点<span>[+]</span>";
-
-            var father = document.getElementById(nodePath[nodePath.length - 1]);
-            father.appendChild(child);
+            alert("updated");
         }
     </script>
 </asp:Content>

@@ -1,11 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <account>
   <users>
-    <user username="Simson" code="0431" email="pageno.91@163.com" role="user">
+    <user username="Simson">
+      <code>0431</code>
+      <role>user</role>
+      <nickname>用户甲</nickname>
+      <email>yonghujia@163.com</email>
+      <department>生产部</department>
+      <lasttime>2014.2.30</lasttime>
+      <picture>/img/no-profile-picture-icon.jpg</picture>
     </user>
   </users>
   <admins>
-    <admin username="admin" code="admin" email="pageno.91@163.com" role="admin">
+    <admin username="admin">
+      <code>admin</code>
+      <role>admin</role>
+      <nickname>管理员甲</nickname>
+      <email>guanliyuanjia@163.com</email>
+      <department>信息中心</department>
+      <lasttime>2014.2.31</lasttime>
+      <picture>/img/no-profile-picture-icon.jpg</picture>
     </admin>
   </admins>
 </account>

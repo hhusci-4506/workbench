@@ -36,6 +36,10 @@
         {
             height:100%;
         }
+             .page-header
+     {
+         border-bottom:2px solid #418BCA;
+     }
     </style>
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
@@ -53,7 +57,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="/mulfunctionDb/TreeBuild.aspx">故障树建立</a></li>
                         <li><a href="/mulfunctionDb/TreeSearch.aspx">故障树搜索</a></li>
-                        <li><a href="#">故障节点维护</a></li>
+                        <li><a href="/mulfunctionDb/TreeManage.aspx">故障节点维护</a></li>
                     </ul>
                 </li>
 
@@ -74,9 +78,9 @@
                     <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">模型生成</a></li>
-                        <li><a href="#">模型修改</a></li>
-                        <li><a href="#">模型更新</a></li>
+                        <li><a href="/modelDb/ModelGen.aspx">模型生成</a></li>
+                        <li><a href="/modelDb/ModelChg.aspx">模型修改</a></li>
+                        <li><a href="/modelDb/ModelUpd.aspx">模型更新</a></li>
                     </ul>
                 </li>
 
@@ -85,14 +89,14 @@
                 <li><a href="#">故障诊断</a></li>
 
                 <li class="dropdown">
-                    <a href="#">系统维护
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">系统维护
                     <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">用户设置</a></li>
-                        <li><a href="#">权限设置</a></li>
-                        <li><a href="#">密码设置</a></li>
-                        <li><a href="#">数据备份</a></li>
+                        <li><a href="/systemMng/UserMng.aspx">用户设置</a></li>
+                        <li><a href="/systemMng/RoleMng.aspx">权限设置</a></li>
+                        <li><a href="/systemMng/CodeMng.aspx">密码设置</a></li>
+                        <li><a href="/systemMng/DataBackup.aspx">数据备份</a></li>
                     </ul>
                 </li>
 

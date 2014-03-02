@@ -2,11 +2,19 @@
     CodeBehind="About.aspx.cs" Inherits="UIForSpecialist.About" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+<style type="text/css">
+    p
+    {
+        text-indent:45px;
+    }
+</style>
+
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
 <br />
 <div class="container theme-showcase" role="main">
     <div class="jumbotron">
+        <h3 class="sub-header page-header"><b>关于</b></h3>
         <h3 >机组故障检修专家系统</h3>
         <p>本系统通过多种诊断手段，为混流式水轮发电机组的状态检修提供参考。
         在这里你可以利用机组故障诊断知识库查询故障和原因，通过故障诊断检修专家系统，

@@ -7,16 +7,16 @@ using System.Web.UI.WebControls;
 using System.Web.Services;
 using System.Web.Script.Serialization;
 using System.Xml.Linq;
-//using System.Data;
 
 namespace UIForSpecialist.systemMng
 {
-    public partial class UserMng : System.Web.UI.Page
+    public partial class RoleMng : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
         }
-        
+
         [WebMethod]
         public static string get_content(string input)
         {
@@ -56,6 +56,5 @@ namespace UIForSpecialist.systemMng
             }
             return info;
         }
-
     }
 }

@@ -1,0 +1,5 @@
+F:\coding\workbench\UIForSpecialist\UIForSpecialist\bin\UIForSpecialist.dll
+F:\coding\workbench\UIForSpecialist\UIForSpecialist\bin\UIForSpecialist.pdb
+F:\coding\workbench\UIForSpecialist\UIForSpecialist\obj\Debug\ResolveAssemblyReference.cache
+F:\coding\workbench\UIForSpecialist\UIForSpecialist\obj\Debug\UIForSpecialist.dll
+F:\coding\workbench\UIForSpecialist\UIForSpecialist\obj\Debug\UIForSpecialist.pdb

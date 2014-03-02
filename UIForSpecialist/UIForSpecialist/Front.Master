@@ -4,7 +4,7 @@
 
 <html lang="zh-cn">
 <head >
-    <title>机组故障检修专家系统</title>
+    <title >机组故障检修专家系统</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <link rel="stylesheet" href="/Styles/bootstrap.min.css"/>
@@ -32,7 +32,7 @@
 
         h1 {
             font-family: "Abel", Arial, sans-serif;
-            font-weight: 400;
+            font-weight: 500;
             font-size: 40px;
         }
 
@@ -51,7 +51,7 @@
 </head>
 <body>
     <div>
-        <center><h1 class="margin-base-vertical">机组故障检修专家系统</h1> </center>
+        <center><h1 class="margin-base-vertical header" style="color:#102b6a;"><b>机组故障检修专家系统</b></h1> </center>
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
 
         </asp:ContentPlaceHolder>
